@@ -1,0 +1,443 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-05-25",
+  "cities": [
+    {
+      "id": "hyderabad",
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "latitude": 17.385,
+      "longitude": 78.4867
+    },
+    {
+      "id": "bangalore",
+      "name": "Bangalore",
+      "state": "Karnataka",
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "latitude": 19.076,
+      "longitude": 72.8777
+    }
+  ],
+  "places": [
+    {
+      "id": "hyd_cafe_001",
+      "name": "The Secret Garden Cafe",
+      "city": "hyderabad",
+      "area": "Jubilee Hills",
+      "category": "cafe",
+      "priceRange": 2,
+      "safetyRating": 4.5,
+      "staffBehavior": 5.0,
+      "privacyLevel": 4.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": false,
+        "privateRoomsAvailable": true
+      },
+      "images": ["hyd_cafe_001_1.webp", "hyd_cafe_001_2.webp"],
+      "latitude": 17.4326,
+      "longitude": 78.4071,
+      "description": "A cozy rooftop cafe hidden behind lush greenery in Jubilee Hills. Known for its private seating alcoves, ambient lighting, and zero-judgment atmosphere. Perfect for quiet, intimate conversations.",
+      "tips": [
+        "Ask for the rooftop section — much more private.",
+        "Weekday evenings are the best time to visit.",
+        "The corner booth near the garden wall is the most secluded spot."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-05-01"
+    },
+    {
+      "id": "hyd_hotel_001",
+      "name": "Bliss Stay Suites",
+      "city": "hyderabad",
+      "area": "Madhapur",
+      "category": "hotel",
+      "priceRange": 2,
+      "safetyRating": 4.8,
+      "staffBehavior": 5.0,
+      "privacyLevel": 5.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": true,
+        "privateRoomsAvailable": true
+      },
+      "images": ["hyd_hotel_001_1.webp", "hyd_hotel_001_2.webp"],
+      "latitude": 17.4486,
+      "longitude": 78.3908,
+      "description": "A modern boutique stay in the heart of Madhapur IT corridor. Self-check-in available via app. Completely hassle-free for couples — staff is trained to be respectful and non-intrusive.",
+      "tips": [
+        "Use the self-check-in kiosk to avoid front desk entirely.",
+        "Room 204 has the best city view.",
+        "They offer hourly stays during daytime — great for short visits."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-04-28"
+    },
+    {
+      "id": "hyd_park_001",
+      "name": "Durgam Cheruvu Lakefront",
+      "city": "hyderabad",
+      "area": "Hi-Tech City",
+      "category": "park",
+      "priceRange": 1,
+      "safetyRating": 3.8,
+      "staffBehavior": 3.5,
+      "privacyLevel": 3.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": false,
+        "pdaAllowed": false,
+        "privateRoomsAvailable": false
+      },
+      "images": ["hyd_park_001_1.webp", "hyd_park_001_2.webp"],
+      "latitude": 17.4340,
+      "longitude": 78.3800,
+      "description": "A scenic lakeside promenade near Hi-Tech City. Beautiful sunset views and walking paths. Moderate privacy — popular spot, so it can get crowded on weekends.",
+      "tips": [
+        "Visit during weekday evenings for fewer crowds.",
+        "The far end of the walking path near the bridge is quieter.",
+        "Avoid Sunday afternoons — very crowded with families."
+      ],
+      "isFeatured": false,
+      "isActive": true,
+      "lastVerified": "2026-05-10"
+    },
+    {
+      "id": "hyd_date_001",
+      "name": "Moonlit Terrace Lounge",
+      "city": "hyderabad",
+      "area": "Banjara Hills",
+      "category": "date_spot",
+      "priceRange": 3,
+      "safetyRating": 4.7,
+      "staffBehavior": 5.0,
+      "privacyLevel": 4.5,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": true,
+        "privateRoomsAvailable": false
+      },
+      "images": ["hyd_date_001_1.webp", "hyd_date_001_2.webp"],
+      "latitude": 17.4156,
+      "longitude": 78.4487,
+      "description": "An upscale rooftop lounge in Banjara Hills with panoramic city views. Dim lighting, curated cocktails, and a couple-friendly atmosphere. Ideal for anniversary dinners and special occasions.",
+      "tips": [
+        "Make a reservation — weekends fill up fast.",
+        "Table 7 on the terrace edge has the best view.",
+        "Try the Moonlit Special cocktail — their signature."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-05-15"
+    },
+    {
+      "id": "hyd_retreat_001",
+      "name": "Serene Hideaway Cottages",
+      "city": "hyderabad",
+      "area": "Shamirpet",
+      "category": "retreat",
+      "priceRange": 3,
+      "safetyRating": 4.9,
+      "staffBehavior": 5.0,
+      "privacyLevel": 5.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": true,
+        "privateRoomsAvailable": true
+      },
+      "images": ["hyd_retreat_001_1.webp", "hyd_retreat_001_2.webp"],
+      "latitude": 17.5847,
+      "longitude": 78.5204,
+      "description": "Secluded private cottages on the outskirts of Hyderabad near Shamirpet Lake. Each cottage has its own garden, outdoor seating, and complete privacy. No shared spaces — your own little world.",
+      "tips": [
+        "Book the Lakeview Cottage for the best experience.",
+        "Bring your own snacks — the nearest restaurant is 3km away.",
+        "Perfect for a weekend getaway — check-in is at 2 PM."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-04-20"
+    },
+    {
+      "id": "blr_cafe_001",
+      "name": "Whispering Walls Cafe",
+      "city": "bangalore",
+      "area": "Koramangala",
+      "category": "cafe",
+      "priceRange": 2,
+      "safetyRating": 4.6,
+      "staffBehavior": 5.0,
+      "privacyLevel": 4.5,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": false,
+        "privateRoomsAvailable": false
+      },
+      "images": ["blr_cafe_001_1.webp", "blr_cafe_001_2.webp"],
+      "latitude": 12.9352,
+      "longitude": 77.6245,
+      "description": "A quirky, artsy cafe in Koramangala 5th Block with private booth seating and acoustic music on weekends. The staff is young and completely non-judgmental. Great for casual dates.",
+      "tips": [
+        "The basement section has the most privacy.",
+        "Their cold brew is legendary — must try.",
+        "Friday evenings have live acoustic sets — very romantic."
+      ],
+      "isFeatured": false,
+      "isActive": true,
+      "lastVerified": "2026-05-12"
+    },
+    {
+      "id": "blr_hotel_001",
+      "name": "Urban Nest Stays",
+      "city": "bangalore",
+      "area": "Indiranagar",
+      "category": "hotel",
+      "priceRange": 2,
+      "safetyRating": 4.7,
+      "staffBehavior": 5.0,
+      "privacyLevel": 5.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": true,
+        "privateRoomsAvailable": true
+      },
+      "images": ["blr_hotel_001_1.webp", "blr_hotel_001_2.webp"],
+      "latitude": 12.9784,
+      "longitude": 77.6408,
+      "description": "A trendy boutique hotel in Indiranagar with contactless check-in. Modern rooms with soundproofing, blackout curtains, and smart locks. Zero questions asked — just scan your ID at the kiosk.",
+      "tips": [
+        "Use the QR code check-in — no need to interact with anyone.",
+        "Rooms on the 3rd floor are quieter.",
+        "They have a rooftop sitting area that's great at sunset."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-05-08"
+    },
+    {
+      "id": "blr_park_001",
+      "name": "Cubbon Park — Rose Garden Trail",
+      "city": "bangalore",
+      "area": "MG Road",
+      "category": "park",
+      "priceRange": 1,
+      "safetyRating": 3.5,
+      "staffBehavior": 3.0,
+      "privacyLevel": 2.5,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": false,
+        "pdaAllowed": false,
+        "privateRoomsAvailable": false
+      },
+      "images": ["blr_park_001_1.webp", "blr_park_001_2.webp"],
+      "latitude": 12.9763,
+      "longitude": 77.5929,
+      "description": "The Rose Garden trail inside Cubbon Park is one of Bangalore's most peaceful spots. Less crowded than the main areas. Good for morning walks together, but be aware of occasional park security.",
+      "tips": [
+        "Early mornings (6-8 AM) are the most peaceful.",
+        "The trail behind the library is the least crowded.",
+        "Avoid the main bandstand area — too many people and patrols."
+      ],
+      "isFeatured": false,
+      "isActive": true,
+      "lastVerified": "2026-05-18"
+    },
+    {
+      "id": "mum_cafe_001",
+      "name": "The Velvet Bean",
+      "city": "mumbai",
+      "area": "Bandra West",
+      "category": "cafe",
+      "priceRange": 2,
+      "safetyRating": 4.4,
+      "staffBehavior": 4.5,
+      "privacyLevel": 4.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": false,
+        "privateRoomsAvailable": false
+      },
+      "images": ["mum_cafe_001_1.webp", "mum_cafe_001_2.webp"],
+      "latitude": 19.0596,
+      "longitude": 72.8295,
+      "description": "A warm, dimly-lit cafe in Bandra with velvet booths and great European pastries. Popular with young couples. The back section feels like a private living room.",
+      "tips": [
+        "Sit in the back booth — it's the most private.",
+        "Their tiramisu is the best in Bandra.",
+        "Avoid peak lunch hours (1-2 PM) for a quieter experience."
+      ],
+      "isFeatured": false,
+      "isActive": true,
+      "lastVerified": "2026-05-05"
+    },
+    {
+      "id": "mum_date_001",
+      "name": "Marine Drive Sunset Point",
+      "city": "mumbai",
+      "area": "Marine Drive",
+      "category": "date_spot",
+      "priceRange": 1,
+      "safetyRating": 3.5,
+      "staffBehavior": 3.0,
+      "privacyLevel": 2.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": false,
+        "pdaAllowed": false,
+        "privateRoomsAvailable": false
+      },
+      "images": ["mum_date_001_1.webp", "mum_date_001_2.webp"],
+      "latitude": 18.9432,
+      "longitude": 72.8235,
+      "description": "The iconic Queen's Necklace promenade. Beautiful sunsets and sea breeze. Very public and crowded, so privacy is low, but the atmosphere is unbeatable for a casual evening stroll together.",
+      "tips": [
+        "Best time is 5:30-6:30 PM for golden hour views.",
+        "Walk towards Nariman Point end for fewer crowds.",
+        "The tetrapod rocks are popular sitting spots but be careful."
+      ],
+      "isFeatured": false,
+      "isActive": true,
+      "lastVerified": "2026-05-20"
+    },
+    {
+      "id": "mum_hotel_001",
+      "name": "Oasis Couple Rooms",
+      "city": "mumbai",
+      "area": "Andheri West",
+      "category": "hotel",
+      "priceRange": 2,
+      "safetyRating": 4.6,
+      "staffBehavior": 5.0,
+      "privacyLevel": 5.0,
+      "hassleFreeEntry": 4.5,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": true,
+        "privateRoomsAvailable": true
+      },
+      "images": ["mum_hotel_001_1.webp", "mum_hotel_001_2.webp"],
+      "latitude": 19.1364,
+      "longitude": 72.8296,
+      "description": "A couple-focused boutique hotel near Andheri station. Rooms are themed (Bollywood, Mediterranean, Zen). Hourly and day-use booking available. Discreet entrance and professional staff.",
+      "tips": [
+        "Book the Zen room — it has a private jacuzzi.",
+        "Day-use rates (10 AM - 6 PM) are 40% cheaper.",
+        "Use the side entrance for maximum privacy."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-05-11"
+    },
+    {
+      "id": "mum_retreat_001",
+      "name": "Emerald Bay Villas",
+      "city": "mumbai",
+      "area": "Alibaug (Near Mumbai)",
+      "category": "retreat",
+      "priceRange": 3,
+      "safetyRating": 5.0,
+      "staffBehavior": 5.0,
+      "privacyLevel": 5.0,
+      "hassleFreeEntry": 5.0,
+      "policies": {
+        "unmarriedCouplesWelcome": true,
+        "localIdAccepted": true,
+        "noMoralPolicing": true,
+        "pdaAllowed": true,
+        "privateRoomsAvailable": true
+      },
+      "images": ["mum_retreat_001_1.webp", "mum_retreat_001_2.webp"],
+      "latitude": 18.6414,
+      "longitude": 72.8722,
+      "description": "Luxury private villas in Alibaug, a short ferry ride from Mumbai. Each villa has a private pool, beach access, and 24/7 room service. The ultimate romantic getaway — no shared spaces, no prying eyes.",
+      "tips": [
+        "Take the Mandwa ferry from Gateway of India — it's faster.",
+        "Villa 3 has the best beach view.",
+        "Book on weekdays for 30% lower rates."
+      ],
+      "isFeatured": true,
+      "isActive": true,
+      "lastVerified": "2026-04-30"
+    }
+  ],
+  "collections": [
+    {
+      "id": "col_budget_cafes",
+      "title": "Budget Romantic Cafes Under ₹500",
+      "description": "Cozy cafes with private seating that won't burn a hole in your wallet.",
+      "placeIds": ["hyd_cafe_001", "blr_cafe_001", "mum_cafe_001"],
+      "isLocked": false,
+      "coverImage": "col_budget_cafes.webp"
+    },
+    {
+      "id": "col_safest_hotels",
+      "title": "Top Rated Safe Hotels",
+      "description": "Hotels with the highest couple safety ratings — zero questions, zero hassle.",
+      "placeIds": ["hyd_hotel_001", "blr_hotel_001", "mum_hotel_001"],
+      "isLocked": false,
+      "coverImage": "col_safest_hotels.webp"
+    },
+    {
+      "id": "col_secluded_retreats",
+      "title": "Top 10 Most Secluded Retreats",
+      "description": "Private cottages and villas where it's just the two of you. No shared spaces.",
+      "placeIds": ["hyd_retreat_001", "mum_retreat_001"],
+      "isLocked": true,
+      "coverImage": "col_secluded_retreats.webp"
+    },
+    {
+      "id": "col_free_dates",
+      "title": "Free Date Spots — ₹0 Entry",
+      "description": "Parks, promenades, and sunset points that cost absolutely nothing.",
+      "placeIds": ["hyd_park_001", "blr_park_001", "mum_date_001"],
+      "isLocked": false,
+      "coverImage": "col_free_dates.webp"
+    },
+    {
+      "id": "col_anniversary_special",
+      "title": "Anniversary & Special Occasions",
+      "description": "Upscale lounges, rooftop dinners, and luxury stays for your special day.",
+      "placeIds": ["hyd_date_001", "mum_retreat_001"],
+      "isLocked": true,
+      "coverImage": "col_anniversary.webp"
+    }
+  ]
+}
