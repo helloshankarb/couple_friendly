@@ -1,0 +1,3 @@
+[submodule "vercel-api"]
+	path = vercel-api
+	url = https://github.com/helloshankarb/couple_friendly_vercel.git
