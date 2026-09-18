@@ -1,0 +1,180 @@
+{"anchor": "Osi enduku tease chesthunnav nannu kadha", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Mari inkeppudu naku call or message cheyyaku bujji", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "ee photo lo chala andham ga unnav bujji ga", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Pls enduku ila edipisthunnav nannu ga", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Osi enduku msg ki answer ivvatledu ra", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Hey nuvvu natho enduku ila matladuthunnav mari", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Hey nannu enduku teasing chesthunnav ga", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Mari chala miss avthunna bujji, eppudu vasthav mari", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Arey neeku oka sari chepthe ardham kaada ga", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "nuvve naa pranam bangaram, chala premisthunna baby", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Mari nannu enduku tease chesthunnav bangaram", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Arey nuvve naa pranam bangaram, chala premisthunna le", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Hey naa meeda enduku kopam kadha", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Mari malli eppudu naku call or text cheyyaku baby", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Arey enduku nannu ila edipisthunnav mari", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "nuvvu natho enduku ila matladuthunnav", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Hey ee photo lo chala handsome ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Osi inka eppudu naku phone or text cheyyaku kadha", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "enduku ila edipisthunnav nannu kadha", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Mari enduku reply ivvatledu mari", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Nannu enduku tease chesthunnav?", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Hey ee photo lo chala cute ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Osi enduku tease chesthunnav nannu", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Osi inka eppudu naku phone or text ceyyaku kadha", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Osi nuvvu natho enduku ila matladuthunnav ra", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Mari nuvvu nannu care ledu chesthunnav bangaram", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Mari enduku reply ivvatledu kadha", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Pls enduku nannu ila baadha peduthunnav ga", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Asalu chala miss avthunna bujji, eppudu vasthav baby", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Pls nuvvu natho enduku ila matladuthunnav mari", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Please ee photo lo chala cute ga unnav bujji ga", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Mari inka eppudu naku phone or msg cheyyaku bujji", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Osi inkeppudu naku call or message cheyyaku kadha", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Mari inka eppudu naku phone or msg ceyyaku bujji", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Osi nuvve naa pranam bangaram, chala premisthunna le", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Arey ee photo lo chala chakkaga unnav ga unnav bujji kadha", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Please nee kallaloki chusthe tempt aipothunna baby ra", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Hey enduku ila edipisthunnav nannu bangaram", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Mari nee kallaloki chusthe tempt aipothunna baby le", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "inkeppudu naku call or message ceyyaku kadha", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Arey ee photo lo chala cute ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Arey nuvvu nannu ignore chesthunnav bujji", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Mari chala gurthosthunnav avthunna bujji, eppudu vasthav mari", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Hey malli eppudu naku phone or message ceyyaku ga", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Chala miss avthunna bujji, eppudu vasthav?", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Neeku oka sari chepthe ardham kaada?", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Hey naa meeda enduku gussa kadha", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Pls chala miss avthunna bujji, eppudu vasthav ra", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Mari enduku nannu ila crying theppisthunnav kadha", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Mari enduku reply ivvatledu bujji", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "enduku nannu ila crying theppisthunnav kadha", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Mari enduku msg ki answer ivvatledu mari", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Hey enduku reply ivvatledu mari", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Mari nuvvu nannu ignore chesthunnav ra", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Pls nee kallaloki chusthe tempt aipothunna baby le", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Mari nuvvu natho enduku ila matladuthunnav le", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Osi nannu enduku tease chesthunnav", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Mari nuvve naa pranam bangaram, chala premisthunna le", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "naa meeda enduku kopam le", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Arey naa meeda enduku kopam bangaram", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Asalu naa meeda enduku gussa kadha", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Osi chala gurthuku vasthunnav avthunna bujji, eppudu vasthav le", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Asalu chala miss avthunna bujji, eppudu vasthav le", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Hey neeku oka sari chepthe ardham kaada mari", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Osi chala miss avthunna avthunna bujji, eppudu vasthav ga", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Hey enduku nannu ila edipisthunnav bangaram", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Mari nuvvu ignore chesthunnav nannu ra", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Hey nuvvu ignore chesthunnav nannu bangaram", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Mari nuvvu natho enduku ila matladuthunnav baby", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Hey nuvvu nannu pattinchukovadam ledu chesthunnav bangaram", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "nee kallaloki chusthe tempt aipothunna baby kadha", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "inkeppudu naku phone or message ceyyaku kadha", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "nuvve naa pranam bangaram, chala premisthunna kadha", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Enduku nannu ila edipisthunnav?", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "ee photo lo chala cute ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Pls chala miss avthunna bujji, eppudu vasthav ga", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Asalu chala ontariga anipisthundi avthunna bujji, eppudu vasthav le", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Pls neeku oka sari chepthe ardham kaada ga", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Please nuvve naa pranam bangaram, chala premisthunna", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Ee photo lo chala cute ga unnav bujji.", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Hey enduku response ivvatledu mari", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Mari neeku oka sari chepthe ardham kaada bangaram", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Arey nuvvu ignore chesthunnav nannu bujji", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Hey enduku response ivvatledu ga", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Arey nuvvu natho enduku ila matladuthunnav baby", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Mari enduku nannu ila edipisthunnav kadha", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Asalu nannu enduku tease chesthunnav ra", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Asalu naa meeda enduku irritation kadha", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Osi naa meeda enduku gussa bujji", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Osi nannu enduku tease chesthunnav kadha", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Asalu enduku tease chesthunnav nannu ra", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Mari nuvvu nannu ignore chesthunnav bangaram", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Asalu naa meeda enduku kopam kadha", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Mari enduku text back ivvatledu bujji", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Mari nannu enduku allari chesthunnav bangaram", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Arey nuvvu natho enduku ila matladuthunnav ga", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Mari nee kallaloki chusthe tempt aipothunna baby ga", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Pls neeku oka sari chepthe ardham kaada baby", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Osi nannu enduku allari chesthunnav", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Osi ee photo lo chala cute ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "nuvve naa pranam bangaram, chala premisthunna ra", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Arey ee photo lo chala bavunnav ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Hey enduku reply ivvatledu ga", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Asalu nee kallaloki chusthe tempt aipothunna baby mari", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Hey nuvvu nannu ignore chesthunnav bangaram", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Asalu nuvve naa pranam bangaram, chala premisthunna baby", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Asalu enduku reply ivvatledu", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Nuvvu nannu ignore chesthunnav.", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "enduku nannu ila edipisthunnav kadha", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Arey ee photo lo chala cute ga unnav bujji kadha", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Osi chala miss avthunna bujji, eppudu vasthav le", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Mari enduku ila edipisthunnav nannu kadha", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Hey nee kallaloki chusthe tempt aipothunna baby ra", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Arey enduku ila edipisthunnav nannu mari", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Pls nuvve naa pranam bangaram, chala premisthunna le", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "ee photo lo chala cute ga unnav bujji ga", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Mari inkeppudu naku call or msg ceyyaku bujji", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Osi nuvvu nannu pattinchukovadam ledu chesthunnav", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Mari enduku response ivvatledu kadha", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Arey nuvvu nannu pattinchukovadam ledu chesthunnav bujji", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Hey neeku oka sari chepthe ardham kaada ra", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Osi nuvvu natho enduku ila matladuthunnav ga", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Mari neeku oka sari chepthe ardham kaada baby", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Pls chala gurthuku vasthunnav avthunna bujji, eppudu vasthav ga", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Arey naa meeda enduku gussa le", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Nuvvu natho enduku ila matladuthunnav?", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Nee kallaloki chusthe tempt aipothunna baby.", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Arey nee kallaloki chusthe tempt aipothunna baby kadha", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Osi naa meeda enduku kopam bujji", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Asalu enduku msg ki answer ivvatledu", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Osi nee kallaloki chusthe tempt aipothunna baby mari", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Osi neeku oka sari chepthe ardham kaada bujji", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Enduku reply ivvatledu?", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Hey malli eppudu naku phone or message cheyyaku ga", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Mari enduku tease chesthunnav nannu bangaram", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Please nee kallaloki chusthe tempt aipothunna baby bangaram", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Mari nee kallaloki chusthe tempt aipothunna baby bujji", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Pls neeku oka sari chepthe ardham kaada bujji", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Asalu chala miss avthunna avthunna bujji, eppudu vasthav baby", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Please inka eppudu naku phone or text ceyyaku baby", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Hey enduku tease chesthunnav nannu ga", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Please inka eppudu naku phone or text cheyyaku baby", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Asalu naa meeda enduku irritation bujji", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "naa meeda enduku chiraku le", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Arey naa meeda enduku kopam le", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Mari ee photo lo chala cute ga unnav bujji le", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Asalu naa meeda enduku kopam bujji", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Mari nee kallaloki chusthe tempt aipothunna baby baby", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Mari ee photo lo chala cute ga unnav bujji", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Please nuvve naa pranam bangaram, chala premisthunna mari", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Arey enduku nannu ila kallalo tears theppisthunnav mari", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Osi ee photo lo chala chakkaga unnav ga unnav bujji ra", "correct_intent": "COMPLIMENT_LOOKS", "negative_intent": "FLIRT_COMPLIMENT", "pair_id": "HN_06"}
+{"anchor": "Hey nuvvu natho enduku ila matladuthunnav baby", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Osi neeku oka sari chepthe artham kaada bujji", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "nee kallaloki chusthe tempt aipothunna baby baby", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Asalu nuvvu natho enduku ila matladuthunnav ra", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Mari nuvvu nannu pattinchukovadam ledu chesthunnav ra", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Nuvve naa pranam bangaram, chala premisthunna.", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Hey enduku nannu ila baadha peduthunnav bangaram", "correct_intent": "EMOTIONAL_HURT", "negative_intent": "TEASING", "pair_id": "HN_01"}
+{"anchor": "Hey neeku oka sari chepthe artham kaada ra", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Asalu nee kallaloki chusthe tempt aipothunna baby", "correct_intent": "FLIRT_COMPLIMENT", "negative_intent": "COMPLIMENT_LOOKS", "pair_id": "HN_06"}
+{"anchor": "Mari inkeppudu naku call or message ceyyaku bujji", "correct_intent": "BREAKUP_THREATS", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_04"}
+{"anchor": "Asalu neeku oka sari chepthe ardham kaada ga", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Osi nannu enduku allari chesthunnav kadha", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "nuvve naa pranam bangaram, chala premisthunna ga", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Pls chala ontariga anipisthundi avthunna bujji, eppudu vasthav ra", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Osi enduku reply ivvatledu ra", "correct_intent": "NO_REPLY", "negative_intent": "IGNORING", "pair_id": "HN_02"}
+{"anchor": "Hey neeku oka sari chepthe ardham kaada bujji", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Hey nannu enduku tease chesthunnav ga", "correct_intent": "TEASING", "negative_intent": "EMOTIONAL_HURT", "pair_id": "HN_01"}
+{"anchor": "Osi nuvve naa pranam bangaram, chala premisthunna kadha", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Hey nuvvu natho enduku ila matladuthunnav le", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Osi nuvve naa pranam bangaram, chala premisthunna baby", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Osi nuvvu nannu ignore chesthunnav", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Mari nuvvu ignore chesthunnav nannu bangaram", "correct_intent": "IGNORING", "negative_intent": "NO_REPLY", "pair_id": "HN_02"}
+{"anchor": "Osi chala miss avthunna bujji, eppudu vasthav ga", "correct_intent": "MISSING", "negative_intent": "ROMANTIC_STATEMENT", "pair_id": "HN_05"}
+{"anchor": "Naa meeda enduku kopam?", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "CONFLICT_FRUSTRATION", "pair_id": "HN_03"}
+{"anchor": "Mari neeku oka sari chepthe artham kaada bangaram", "correct_intent": "CONFLICT_FRUSTRATION", "negative_intent": "ANGER_ARGUMENT", "pair_id": "HN_03"}
+{"anchor": "Pls nuvve naa pranam bangaram, chala premisthunna ra", "correct_intent": "ROMANTIC_STATEMENT", "negative_intent": "MISSING", "pair_id": "HN_05"}
+{"anchor": "Hey nuvvu natho enduku ila matladuthunnav ra", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}
+{"anchor": "Hey nuvvu natho enduku ila matladuthunnav", "correct_intent": "ANGER_ARGUMENT", "negative_intent": "BREAKUP_THREATS", "pair_id": "HN_04"}

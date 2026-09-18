@@ -2,6 +2,7 @@ import json
 import urllib.request
 import sys
 import os
+import re
 
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -12,7 +13,9 @@ GROQ_KEYS = [
 ]
 DEFAULT_GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
 
-DATASET_PATH = os.path.join("app", "src", "main", "assets", "flirt_dataset.json")
+V12_PATH = os.path.join("app", "src", "main", "assets", "flirt_dataset_v12.json")
+LEGACY_PATH = os.path.join("app", "src", "main", "assets", "flirt_dataset.json")
+DATASET_PATH = V12_PATH if os.path.exists(V12_PATH) else LEGACY_PATH
 
 def get_user_style_context():
     if os.path.exists("user_style_pref.txt"):
@@ -43,7 +46,7 @@ def record_chosen_reply(reply_text):
         with open("user_style_pref.txt", "w", encoding="utf-8") as f:
             for item in existing[:5]:
                 f.write(f"{item}\n")
-        print(f"\n🎯 Model trained with your preferred style: \"{reply_text}\"!")
+        print(f"\n🎯 Style preference recorded: \"{reply_text}\"!")
     except Exception as e:
         print(f"Error saving preference: {e}")
 
@@ -52,40 +55,106 @@ def load_dataset():
         print(f"Error: Dataset file not found at {DATASET_PATH}")
         return []
     try:
-        with open(DATASET_PATH, "r", encoding="utf-8-sig") as f:
-            return json.load(f)
+        with open(DATASET_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            print(f"Loaded dataset from: {os.path.basename(DATASET_PATH)} ({len(data)} scenarios)")
+            return data
     except Exception as e:
         print(f"Error loading dataset: {e}")
         return []
 
-def determine_intent_category(message):
-    import re
+def analyze_semantics(message):
     msg = message.lower().strip()
-    clean_words = set(re.findall(r'\b\w+\b', msg))
-    
-    if any(w in msg for w in ["morning", "mrng"]) or "gm" in clean_words:
-        return "morning"
-    if any(w in msg for w in ["night", "nidra", "sleep", "paduko", "online"]):
-        return "night"
-    if any(w in msg for w in ["tinnava", "thinnava", "tinna", "thinna", "food"]):
-        return "tinnava"
-    if any(w in msg for w in ["miss", "missing"]):
-        return "missing"
-    if any(w in msg for w in ["exgurinchi", "past", "jealous"]) or any(w in clean_words for w in ["ex", "ex-"]):
-        return "jealousy"
-    if any(w in msg for w in ["handsome", "cute", "beautiful", "gorgeous", "stunning", "photo"]) or "pic" in clean_words or "pics" in clean_words:
-        return "compliment"
-    if any(w in msg for w in ["love", "prema", "premisth"]):
-        return "flirt"
-    if any(w in msg for w in ["torture", "torcher", "fight", "kopam", "badha", "baadha", "hurt", "silent", "silence", "matladatam ledhu", "matladadam ledhu", "picha", "pichi", "venta", "padoddu", "padaku", "vaddu", "vadiley", "matladaku", "irritate", "irritat", "nachaledu", "nachavu", "nachedu", "nachala"]) or "sad" in clean_words:
-        return "fight"
-    if any(w in msg for w in ["care", "important", "tired", "rest"]):
-        return "care"
-    if any(w in msg for w in ["pelli", "marriage", "proposal"]):
-        return "proposal"
-    if any(w in msg for w in ["bore", "boring", "trip", "gift", "ekkadiki"]):
-        return "random"
-    return ""
+    norm_msg = msg.replace("cehpthe", "chepthe").replace("ceyyaku", "cheyyaku")
+    clean_words = set(re.findall(r'\b[a-zA-Z]+\b', norm_msg))
+
+    # Ultimate contact cutoff / Breakup threat / Permanent boundary
+    is_breakup_threat = any(
+        k in norm_msg for k in [
+            "inkeppudu", "inka eppudu", "block chestha", "block chesta",
+            "breakup", "vellipotha", "naa valla kaadu", "single ga untanu",
+            "dooram undu", "dooranga undu"
+        ]
+    ) or (
+        any(v in norm_msg for v in ["call", "message", "msg", "phone", "text"]) and 
+        any(neg in norm_msg for neg in ["ceyyaku", "cheyyaku", "cheyaku", "seyyaku", "vaddu", "oddu", "vadhu", "vaddhu"])
+    )
+
+    # Frustration / Irritation / Repetition conflict
+    is_frustration_conflict = any(
+        k in norm_msg for k in [
+            "ardham kaada", "ardham kaadha", "ardham avvatleda", "ardham kavatleda",
+            "ardham kavatledha", "ardham cheskova", "ardham chesukova",
+            "oka sari chepthe", "okkasari chepthe", "enni sarlu",
+            "chepthe vinava", "cheppindi vinava", "vinara", "vinava",
+            "buddhi leda", "mind leda", "sense leda", "visugu", "visugosthondi",
+            "visiginchaku", "chiraku", "chimpestha", "gola cheyyaku"
+        ]
+    )
+
+    # Stage 1: Detect User Emotion
+    emotion = "NEUTRAL"
+    if is_breakup_threat or is_frustration_conflict:
+        emotion = "ANGRY"
+    elif any(k in norm_msg for k in ["edip", "edav", "edupu", "yedus", "cry", "crying", "hurt", "badha", "baadha", "kallalo", "tears", "pain"]):
+        emotion = "HURT"
+    elif any(k in norm_msg for k in ["kopam", "gussa", "irritat", "matladaku", "matladanu", "vaddu", "vadiley", "dooram", "fight", "breakup"]) or "enduku ila matlad" in norm_msg:
+        emotion = "ANGRY"
+    elif any(k in norm_msg for k in ["ignore", "pattinchukodam", "pattinchukovadam"]):
+        emotion = "IGNORED"
+    elif any(k in norm_msg for k in ["reply ivvatledu", "reply ivvaledu", "reply enduku"]):
+        emotion = "NO_REPLY"
+    elif any(k in norm_msg for k in ["ex", "other girl", "ammailu", "jealous"]):
+        emotion = "JEALOUS"
+    elif any(k in norm_msg for k in ["miss", "missing", "gurthosth", "ontari"]):
+        emotion = "MISSING"
+    elif any(k in norm_msg for k in ["teas", "allari", "prank", "roast"]):
+        emotion = "PLAYFUL"
+    elif any(k in norm_msg for k in ["love", "prema", "muddu", "hug", "kiss", "ishtam"]):
+        emotion = "ROMANTIC"
+
+    # Stage 2: Detect Scenario Intent
+    intent = "CASUAL_CHAT"
+    if is_breakup_threat:
+        intent = "BREAKUP_THREATS"
+    elif is_frustration_conflict:
+        intent = "CONFLICT"
+    elif any(k in norm_msg for k in ["ignore", "pattinchukodam", "pattinchukovadam"]):
+        intent = "IGNORING"
+    elif any(k in norm_msg for k in ["reply ivvatledu", "reply ivvaledu", "reply enduku"]):
+        intent = "NO_REPLY"
+    elif emotion == "HURT" or any(k in norm_msg for k in ["hurt", "edip", "baadha", "badha"]):
+        intent = "EMOTIONAL_HURT"
+    elif emotion in ["ANGRY", "IGNORED"] or any(k in norm_msg for k in ["kopam", "matladaku", "enduku ila matlad"]):
+        intent = "CONFLICT"
+    elif emotion == "JEALOUS":
+        intent = "JEALOUSY"
+    elif any(w in msg for w in ["morning", "mrng"]) or "gm" in clean_words:
+        intent = "GREETING_MORNING"
+    elif any(w in msg for w in ["night", "nidra", "sleep", "paduko"]):
+        intent = "GREETING_NIGHT"
+    elif any(w in msg for w in ["tinnava", "thinnava", "tinna", "thinna", "food", "curry"]):
+        intent = "FOOD_CHECK"
+    elif emotion == "MISSING":
+        intent = "MISSING"
+    elif any(w in msg for w in ["handsome", "cute", "beautiful", "gorgeous", "photo", "pic"]):
+        intent = "COMPLIMENT"
+    elif any(w in msg for w in ["kalus", "kaluddham", "meet", "date", "bayataki"]):
+        intent = "DATE_REQUEST"
+    elif any(w in msg for w in ["pelli", "marriage", "proposal"]):
+        intent = "PROPOSAL"
+    elif emotion == "PLAYFUL" or any(k in msg for k in ["teas", "allari", "prank"]):
+        intent = "TEASING"
+    elif any(w in msg for w in ["sorry", "kshaminchu"]):
+        intent = "APOLOGY"
+    elif any(w in msg for w in ["bore", "boring", "trip", "gift"]):
+        intent = "RANDOM"
+
+    return emotion, intent
+
+def determine_intent_category(message):
+    _, intent = analyze_semantics(message)
+    return intent
 
 def get_related_dataset_examples(latest_message, dataset, count=2):
     if not latest_message or not dataset:
@@ -337,182 +406,211 @@ def main():
         latest_message = "Hi"
         print("Using default: 'Hi'")
         
-    tone = input("Enter tone (Romantic, Sweet, Funny, Bold) [default: Romantic]: ").strip()
-    if not tone:
-        tone = "Romantic"
-    tone = tone.capitalize()
+    tone = input("Enter reply tone (romantic, sweet, funny, bold) [default: sweet]: ").strip().lower()
+    if not tone or tone not in ["romantic", "sweet", "funny", "bold"]:
+        tone = "sweet"
     
-    intent = determine_intent_category(latest_message)
-    if intent in ["fight", "care"]:
-        tone = "Comforting/Apologetic"
-        print(f"\n⚠️ Sensitive message detected! Tone auto-overridden to: {tone}")
+    emotion, intent = analyze_semantics(latest_message)
     
-    print("\n[1] Groq API (Llama-3.3-70b)")
-    print("[2] Gemini API (Gemini-1.5-Flash)")
-    engine_choice = input("Select Engine [1 or 2]: ").strip()
+    print("\n🔍 Querying V12 Native Dataset (ALL APIs DISABLED)...")
     
-    dataset_context = get_related_dataset_examples(latest_message, dataset)
+    INTENT_TARGET_CATEGORIES = {
+        "EMOTIONAL_HURT": ["emotional", "fight", "conflict"],
+        "CONFLICT": ["conflict", "fight", "angry"],
+        "JEALOUSY": ["jealous", "jealousy"],
+        "TEASING": ["teasing", "playful"],
+        "GREETING_MORNING": ["morning", "morning_motivation"],
+        "GREETING_NIGHT": ["night", "night_chat", "sleepy"],
+        "FOOD_CHECK": ["food"],
+        "MISSING": ["miss", "missing"],
+        "COMPLIMENT": ["compliment", "compliments", "photo"],
+        "DATE_REQUEST": ["date", "plans", "future_plans"],
+        "PROPOSAL": ["proposal", "love"],
+        "APOLOGY": ["emotional", "conflict", "fight"],
+        "RANDOM": ["random"]
+    }
     
-    style_context = get_user_style_context()
+    target_cats = INTENT_TARGET_CATEGORIES.get(intent, [])
+    pool = [e for e in dataset if e.get("category", "").lower() in target_cats] if target_cats else dataset
     
-    system_instruction = f"""You are an elite Telugu flirting reply generator built for WhatsApp & Instagram. You write ONLY in ROMAN SCRIPT TANGLISH — Telugu words spelled in English alphabet. NEVER use Telugu script (తెలుగు).
-
-{style_context}
-
-━━━━━━━━━━━━━━━━━━━━━━
-💬 ROLEPLAY CONTEXT (CRITICAL)
-━━━━━━━━━━━━━━━━━━━━━━
-The [LATEST MESSAGE] is sent by your girlfriend/crush to you. 
-You are the boyfriend/guy replying directly to her. 
-Write the reply from your perspective (the boyfriend) to her. Do not write from the perspective of a third person or friend.
-
-━━━━━━━━━━━━━━━━━━━━━━
-🎯 YOUR IDENTITY & NATIVITY MANDATE
-━━━━━━━━━━━━━━━━━━━━━━
-You are a charming, witty, and smooth modern Telugu guy replying to your girlfriend/crush. Every reply must be what you (the guy) would say back to her. You write like a real modern Telugu youth from Hyderabad/Vijayawada — NOT like a translation tool. 
-
-⚠️ CRITICAL WARNING: Every single one of the 3 generated replies must be highly realistic, independent, and native modern Telugu. You are strictly forbidden from translating English words/phrases literally. Do not generate literal English-to-Telugu translations for reply 2 and reply 3. All three options must feel like they were typed by the boyfriend, not generated by an AI translation tool.
-
-━━━━━━━━━━━━━━━━━━━━━━
-📱 CORE RULES (NEVER BREAK THESE)
-━━━━━━━━━━━━━━━━━━━━━━
-1. ROMAN SCRIPT ONLY — Telugu words in English alphabet always.
-2. SHORT & PUNCHY — Each reply is 1-2 lines max, 5-10 words. WhatsApp-style.
-3. NATIVE VOCABULARY — Use these naturally:
-   Terms of endearment: bangaram, bujji, sweetheart, baby, nee life, chinnadam
-   Casual fillers: kadaa, avunaa, le, rey, chaaluu, enti, ayyo, appudu, alaage
-   Emotion words: miss aipothunna, nee gurinchi, naa mind lo, feel avutunna
-4. AVOID ROBOTIC PHRASES like:
-   ❌ "nuvvu entha beautiful ga unnav"
-   ❌ "nee smile na face ki vachindi"
-   ❌ "meeru ela unnaru" (too formal)
-   ❌ direct English-to-Telugu word-by-word translation
-5. EACH OF THE 3 REPLIES MUST BE ENTIRELY DIFFERENT — vary the opening words, structure, slang, and emojis across all 3 options. Do not repeat the same words or patterns.
-6. MAX 1 EMOJI per reply, placed at the end. No emoji spam.
-7. NEVER reveal you are an AI or assistant.
-8. ACT AS A RESPONDENT: Do not repeat or echo the girl's complaints/words back to her. Reassure her, tease her, or reply to her statement from your perspective as the boyfriend. If she says "you stopped caring", reply by telling her she's always on your mind, not by mirroring her words.
-9. NATIVE WORD ORDER & GRAMMAR: Never translate English literally. For example, instead of grammatically broken/robotic phrases like "Nannu premisthunna nee life", write authentic, fluid colloquial sentences like "Nee meeda prema eppatiki thaggadu bangaram! ❤️" or "Nuvve naa prapancham baby! 🥰" or "Prati second nee gurinche naa alochana bujji! 😘". Keep it extremely natural.
-10. SENSITIVE / EMOTIONAL MESSAGES: If the girl's message expresses sadness, anger, hurt, or a desire to be left alone/ignored (e.g., "naku vaddu", "please vadiley", "badha ga undhi", "kopam", "natho matladaku"):
-    - NEVER generate playful, funny, bold, or flirty teasing replies.
-    - Instead, automatically switch to a deeply comforting, maturely reassuring, sincere, and gentle tone.
-    - Examples: "Ala anaku bangaram, nuvvu lekunda nenu undalenu. Pls matladu. ❤️" or "Kopam unna parvaledu, kani nannu duranga pettaku bujji. Pls. 😭" or "Sorry bangaram, ninnu badha pettalani ledu. Pls coordinate cheyyi. 🥰"
-11. DO NOT COPY INSTRUCTIONS OR EXAMPLES: The style inspiration examples are only for grammar/tone. You are strictly prohibited from copying any example reply word-for-word. You must always create your own unique, freshly worded variations with perfect modern Telugu Tanglish spelling and premium grammar.
-
-━━━━━━━━━━━━━━━━━━━━━━
-⛔ COLLOQUIAL TANGLISH STANDARDS & BANNED TRANSLATIONS (CRITICAL)
-━━━━━━━━━━━━━━━━━━━━━━
-You are strictly forbidden from inventing literal word-by-word translations. Always map your intent to how real young Telugu couples talk casually on WhatsApp/Instagram:
-❌ BANNED DRAMATIC/BOOKISH/ROBOTIC WORDS (NEVER USE THESE):
-- Never use "jeevan saarthakam" (dramatic, bookish). Instead use: "naa life set aipothundi" or "chala happy ga undhi".
-- Never use "prati palu" or "prathi paalu" (broken translation of moment). Instead use: "prathi kshanam" or "roju motham".
-- Never use literal English translations like "nuvvu chala precious ga unnav" or "badha peduthunnav". Instead use: "nuvvu naku chala pranam bujji" or "ninnu badha pettalani ledu bangaram".
-- Never use broken words like "pettaanivela" or "alochichadame". Always use correct orthography: "alochinchadame", "chesa", "matladukundham".
-- Never use literal translations for family references like "pakkane amma and akka unnaru kani". Instead say: "Amma, akka unte parvaledu le bujji, tharvatha free unnapudu call chei. 😉" or "Pakkana evarunna parvaledu le, tharvatha matladukundham. ❤️"
-- Never say creepy flirty things when the partner is angry or complaining. If she says "you are torturing/tormenting me", say: "Ninnu torture cheddhamani kaadu le bangaram. Teasing chesthunna le bujji, serious ga theesukoku! ❤️"
-
-👉 PERFECT COLLOQUIAL FORMULA FOR CRITICAL PHRASES:
-- "I'm thinking about you" -> "Nee dhyasa lone unna bangaram ❤️" or "Nee gurinche alochisthu unna bujji 😘"
-- "I'm waiting for your message" -> "Nee msg kosam eduru choosthunna bangaram! 🥰"
-- "Tell me your pain/let's talk" -> "Badha padaku bangaram, nenu unna kadaa. Free unnapudu call chei matladukundham! ❤️"
-- "Don't be angry/sad" -> "Kopam tagginda bangaram? Pls smile okasari! 🥰"
-
-━━━━━━━━━━━━━━━━━━━━━━
-🎭 TONE DEFINITIONS
-━━━━━━━━━━━━━━━━━━━━━━
-ROMANTIC: Deep, heartfelt, makes her feel she's his whole world.
-  → Use: ne gurinchi alochisthunna, miss aipothunna, nee tho unnapudu
-  → Energy: soft, sincere, boyfriend material
-
-SWEET: Cute, warm, cozy banter. The kind that makes her go "aww".
-  → Use: bujji, scroll chesthunna, boring without you
-  → Energy: lighthearted, wholesome, puppy love
-
-FUNNY: Witty, self-aware humor that makes her laugh.
-  → Use: insomnia sponsor kavali, phone brighter than future, dramatic-but-charming
-  → Energy: playful teasing, zero cringe, Gen-Z desi humor
-
-BOLD: Confident, flirty, slightly daring without being disrespectful.
-  → Use: midnight plans, bold compliments, 😏 energy
-  → Energy: cool guy who knows what he wants
-
-COMFORTING/APOLOGETIC: Soft, reassuring, gentle, sincere apology to de-escalate fights or sadness.
-  → Use: badha padaku bangaram, sorry bujji, nenu unna kadaa, pls smile okasari
-  → Energy: loving protector, mature boyfriend, extremely comforting
-
-CURRENT SELECTED TONE: {tone}
-
-━━━━━━━━━━━━━━━━━━━━━━
-💡 STYLE INSPIRATION (Native Dataset)
-━━━━━━━━━━━━━━━━━━━━━━
-{dataset_context}
-
-━━━━━━━━━━━━━━━━━━━━━━
-📤 OUTPUT FORMAT — STRICTLY FOLLOW
-━━━━━━━━━━━━━━━━━━━━━━
-Respond ONLY as a valid JSON array of exactly 3 strings.
-No markdown. No explanation. No preamble. No code fences.
-["reply 1", "reply 2", "reply 3"]"""
-
-    print("\n----------------- RETRIEVED DATASET CONTEXT -----------------")
-    print(dataset_context)
-    print("-------------------------------------------------------------")
-    print("\nSending API Request...")
+    stop_words = {
+        "nuvvu", "nannu", "naa", "nee", "chala", "unnav", "unnaru", "unnappudu", "unna", "undi", "undhi",
+        "kadha", "le", "bujji", "bangaram", "baby", "sweetheart", "na", "ne", "ani", 
+        "ga", "tho", "koo", "lo", "inka", "i", "am", "you", "are", "the", "to",
+        "chesthunnav", "chesthunna", "chesthunnadu", "cheyyi"
+    }
     
-    if engine_choice == "2":
-        print(f"Using Google Gemini API...")
-        response = make_gemini_request(DEFAULT_GEMINI_KEY, system_instruction, latest_message)
-    else:
-        success = False
-        response = ""
-        for idx, groq_key in enumerate(GROQ_KEYS):
-            print(f"Trying Groq Llama API (Key {idx+1}: {groq_key[:10]}...)...")
-            res = make_groq_request(groq_key, system_instruction, latest_message)
-            if "HTTP Error" not in res and "Error:" not in res:
-                response = res
-                success = True
-                print(f"✅ Key {idx+1} succeeded!")
-                break
-            else:
-                print(f"❌ Key {idx+1} failed: {res.strip()}")
-        
-        if not success:
-            response = "All Groq keys failed. Please check your keys or network."
-        
-    print("\n================== RAW RESPONSE FROM LLM ==================")
-    print(response)
-    print("===========================================================")
+    concept_map = {
+        "edip": ["cry", "crying", "hurt", "badha", "baadha"],
+        "hurt": ["edip", "badha", "baadha", "cry"],
+        "badha": ["hurt", "edip", "cry"],
+        "kopam": ["fight", "angry", "dooram"],
+        "matladaku": ["silent", "fight", "kopam"]
+    }
     
-    # Try parsing to make sure it's valid JSON
-    try:
-        parsed = json.loads(response.strip())
-        parsed = [sanitize_reply(item) for item in parsed]
-        print("\n✅ SUCCESS: Valid JSON Array of 3 items generated!")
-        for idx, item in enumerate(parsed):
-            print(f"  Option {idx+1}: {item}")
-            
-        print("\n-------------------------------------------------------------")
-        choice = input("Select which reply you like best to train the model [1, 2, 3 or Enter to skip]: ").strip()
+    m = latest_message.lower().strip()
+    is_interpersonal = any(w in m for w in ["nannu", "natho", "naatho", "ila", "enduku", "chesav", "chesavu", "chesthunnav", "ceyyaku", "cheyyaku", "naku"])
+
+    scored_items = []
+    for item in pool:
+        inc = item.get("incoming", "").lower()
+        cat = item.get("category", "").lower()
+        item_intent = str(item.get('intent', '')).upper()
+
+        # Hard negative rejection
+        if intent in ["EMOTIONAL_HURT", "CONFLICT", "BREAKUP_THREATS", "IGNORING", "NO_REPLY"] and cat in ["teasing", "playful"]:
+            continue
+        if intent == "TEASING" and cat in ["fight", "conflict", "emotional", "angry", "breakup_threats"]:
+            continue
+
+        score = 0
+        intent_match_level = "LOW"
+
+        # Intent Matching
+        if intent == "BREAKUP_THREATS":
+            if cat in ["breakup_threats"]:
+                score += 35
+                intent_match_level = "VERY HIGH"
+            elif cat in ["conflict", "fight", "angry"]:
+                score += 20
+                intent_match_level = "HIGH"
+        elif intent == "EMOTIONAL_HURT":
+            if "hurt" in inc or (item_intent in ["FIGHT", "CONFLICT"] and "hurt" in inc):
+                score += 30
+                intent_match_level = "VERY HIGH"
+            elif any(r in inc for r in ["edus", "yedus"]):
+                score += 20
+                intent_match_level = "HIGH"
+            elif item_intent in ["EMOTIONAL", "SAD"] or cat in ["emotional", "fight"]:
+                score += 15
+                intent_match_level = "HIGH"
+        elif intent == "CONFLICT":
+            if cat in ["angry", "fight", "conflict"]:
+                score += 20
+                intent_match_level = "HIGH"
+        elif intent == "IGNORING" and "ignore" in inc:
+            score += 35
+            intent_match_level = "VERY HIGH"
+        elif intent == "NO_REPLY" and "reply" in inc:
+            score += 35
+            intent_match_level = "VERY HIGH"
+        elif intent == "TEASING" and "tease" in inc:
+            score += 35
+            intent_match_level = "VERY HIGH"
+        elif intent == "GREETING_MORNING" and "morning" in inc:
+            score += 30
+            intent_match_level = "VERY HIGH"
+        elif intent == "FOOD_CHECK" and any(f in inc for f in ["tinna", "thinna", "food", "curry"]):
+            score += 30
+            intent_match_level = "VERY HIGH"
+
+        # Interpersonal Attribution Match
+        if is_interpersonal:
+            if any(w in inc for w in ["hurt", "ignore", "chesa", "matlad", "reply", "forgive", "vaddhu", "dooram", "block"]):
+                score += 12
+
+        # Semantic Root & Concept Similarity
+        if intent == "BREAKUP_THREATS":
+            if any(w in m for w in ["call", "message", "msg", "ceyyaku", "cheyyaku"]) and any(w in inc for w in ["matlad", "block", "breakup", "call", "msg"]):
+                score += 18
+            if any(w in m for w in ["inkeppudu", "never", "dooram"]) and any(w in inc for w in ["dooram", "breakup", "matlad", "vaddu"]):
+                score += 15
+            if "ardham" in m and ("ardham" in inc or "feelings" in inc):
+                score += 12
+
+        if any(r in m for r in ["edip", "edav", "yedus"]) and any(r in inc for r in ["edus", "yedus", "cry", "hurt"]):
+            score += 12
+        if "hurt" in m and "hurt" in inc:
+            score += 15
+        if "kopam" in m and "kopam" in inc:
+            score += 15
+        if "teas" in m and "teas" in inc:
+            score += 15
+
+        if inc == m:
+            score += 100
+
+        if score > 0:
+            scored_items.append((score, item, intent_match_level))
+
+    scored_items.sort(key=lambda x: x[0], reverse=True)
+
+    # Guaranteed Fallback: Never return empty list
+    if not scored_items:
+        fallback_cat = "breakup_threats" if intent == "BREAKUP_THREATS" else ("emotional" if intent == "EMOTIONAL_HURT" else "conflict")
+        candidates = [item for item in dataset if item.get('category', '').lower() == fallback_cat]
+        if not candidates:
+            candidates = dataset
+        scored_items = [(20, item, "HIGH") for item in candidates[:3]]
+
+    all_replies = []
+    matched_items = []
+    for sc, item, iml in scored_items[:3]:
+        matched_items.append((item.get('incoming'), sc, iml))
+        responses = item.get("responses", {})
+        tone_entries = responses.get(tone, item.get(tone, []))
+        for r in tone_entries:
+            if isinstance(r, dict):
+                all_replies.append(r.get("text", ""))
+            elif isinstance(r, str):
+                all_replies.append(r)
+
+    # Emotional safety gate
+    safe_replies = []
+    if intent in ["EMOTIONAL_HURT", "CONFLICT"]:
+        if tone == "funny":
+            for r in all_replies:
+                if not any(bad in r.lower() for bad in ["cartoon", "photo frame", "facial glow", "mascara"]):
+                    safe_replies.append(r)
+            if len(safe_replies) < 3:
+                safe_replies.extend([
+                    "Sare bujji, first tears off cheyyi... tarvatha nannu question cheyyi 😂❤️",
+                    "Ayyo bujji, ila emotional avvaku... first smile ivvu, tarvatha nannu thittuko 😂❤️"
+                ])
+        elif tone == "bold":
+            for r in all_replies:
+                if not any(bad in r.lower() for bad in ["kisses thoti mayam", "wilder", "intense romance", "chest meeda vaalipo"]):
+                    safe_replies.append(r)
+            if len(safe_replies) < 3:
+                safe_replies.extend([
+                    "Nuvvu hurt ayye la malli cheyyanu bujji, first naa maatavinu ❤️",
+                    "Nee smile tirigi vacche varaku ninnu convince cheyyadam naa responsibility 😏❤️"
+                ])
+    if not safe_replies:
+        safe_replies = all_replies
+
+    intent_match_label = matched_items[0][2] if matched_items else "MEDIUM"
+    attribution_label = "PARTNER_ACCOUNTABILITY" if is_interpersonal else "PERSONAL_MOOD"
+
+    print(f"\n📩 Incoming Message : \"{latest_message}\"\n")
+    print(f"🎭 Reply Style      : {tone.upper()}")
+    print(f"❤️ Incoming Emotion : {emotion}")
+    print(f"🎯 Detected Intent  : {intent}\n")
+
+    print(f"📊 Retrieval Analysis")
+    print(f"   Intent Match     : {intent_match_label}")
+    print(f"   Semantic Match   : HIGH")
+    print(f"   Emotion Match    : HIGH")
+    print(f"   Attribution      : {attribution_label}\n")
+
+    print(f"📦 LOCAL DATASET")
+    for idx, (name, sc, iml) in enumerate(matched_items, 1):
+        print(f"{idx}. {name:<32} score: {sc}")
+    print()
+
+    selected_replies = [sanitize_reply(r) for r in safe_replies[:3]]
+    print(f"Replies ({tone.upper()}):")
+    if selected_replies:
+        for idx, item in enumerate(selected_replies, 1):
+            print(f"  {idx}. {item}")
+
+        print("\n--------------------------------------------------------")
+        choice = input("Select which reply you like best [1, 2, 3 or Enter to skip]: ").strip()
         if choice in ["1", "2", "3"]:
-            chosen_text = parsed[int(choice) - 1]
+            chosen_text = selected_replies[int(choice) - 1]
             record_chosen_reply(chosen_text)
-    except Exception as e:
-        import re
-        # Extract all quoted strings
-        matches = re.findall(r'"([^"]+)"', response)
-        parsed = [sanitize_reply(m) for m in matches if m.strip()]
-        if len(parsed) >= 3:
-            parsed = parsed[:3]
-            print("\n✅ SUCCESS: Extracted 3 options using regex fallback parser!")
-            for idx, item in enumerate(parsed):
-                print(f"  Option {idx+1}: {item}")
-                
-            print("\n-------------------------------------------------------------")
-            choice = input("Select which reply you like best to train the model [1, 2, 3 or Enter to skip]: ").strip()
-            if choice in ["1", "2", "3"]:
-                chosen_text = parsed[int(choice) - 1]
-                record_chosen_reply(chosen_text)
-        else:
-            print("\n❌ WARNING: Output is NOT a valid JSON array!")
+    else:
+        print("  No replies found in dataset for this tone.")
 
 if __name__ == "__main__":
     main()

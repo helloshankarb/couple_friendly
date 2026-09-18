@@ -1,0 +1,1188 @@
+{"text": "Mari nuvvu ila cute ga enduku unnav baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Please nee eyes chala bagunnayi mari", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls mana first chat ela start ayyindi bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please interview ki velthunna", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu naa life ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey walking ki veldama evening bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu naa feelings ni artham cheskuntava le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Hey dinner chesava bangaram", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu naa life bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "nuvvu nannu impress cheyyadaniki em chesthav ga", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu eppudu ilage chesthav le", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Please nee eyes chala bagunnayi bujji", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey breakup kadha", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Pls handsome ga unnav ra", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey mana iddharame ekkadikaina trip veldhama bujji le", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari em chesthunnav", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu intha perfect ga ela artham chesukuntav bujji nannu bujji", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Please rojantha em chesav", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu nannu oka andham name tho pilusthava bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi naa nickname em pedathav ra", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please naa gurinchi emaina special ga ceppu bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey yedusthunna raa bangaram", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu nijama bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls em chesthunnav ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nuvvu levu ga, baadhaga vundi ga", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Arey nannu intentionally ignore chesthunnava kadha", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Nenu reply ivvakapothe em chesthav", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu nannu date ki official ga aduguthava", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Osi nuvvu relationship lo space istava ra", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Pls song recommend cheyyi le", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Hey outing ki veldaam ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Nuvvu natho enduku ila matladuthunnav?", "intent": "ANGER_ARGUMENT", "domain": "HARD_NEGATIVE"}
+{"text": "Pls reply kosam wait chesthunna bujji", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Arey naa eyes gurinchi ceppu kadha", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari movie chuddam ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nenu serious ga matladthunna bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey inka eppudu naku voice call or text cheyyaku mari", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Asalu intlo problems", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu levu ga, baadhaga vundi kadha", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Hey nuvvu naku chala important bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu status pettinappudu evaru first chustharu ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi naku nee tho matladali ani undhi le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "inka ila chesthe nenu maatladanu kadha", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Pls avunu le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls na place lo inkokaru vachara", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi truth or dare lo truth select chesthe ra", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nuvvu pedda flirt vi kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi nuvvu photos ekkuva teesukuntava mari", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu ippudu call lo matladudama mari", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey edusthunna mari", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Nannu enduku tease chesthunnav", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi em thinnav kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Ekkadaki vellavo naku cheppaledhu,chala kopam ga undhi", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Asalu nijanga nannu love you chesthunnava baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Inka ila chesthe nenu maatladanu", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Osi nuvvu ila chesthe naaku chala hurt avuthundi baby", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu eeroju chala busy ga unna bujji", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu jealous ayithe em chesthav mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please nannu enduku ignore chesthunnav le", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Ivala em plan", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu chala special ga treat chesthunnav bujji nannu", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey evarini neeku pelli chestha antunnaru ra", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "naa pic save chesava le", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls nuvvu voice call lo ekkuva matladava bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Dare ivvu", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nuvvu nannu nammutunnava baby", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "nuvvu naatho daily matladagalava kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls haha ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu naa jeevitham lo thodu ga undali bujji baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey neeku oka sari chepthe ardham kaada bujji", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Asalu emaina try cheddama kothaga ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari inka levaleda mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nijama kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu nannu genuine ga premisthunnava", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Please nee photo wallpaper petkunna bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari nuvvu natho enduku ila matladuthunnav baby", "intent": "ANGER_ARGUMENT", "domain": "HARD_NEGATIVE"}
+{"text": "Arey nuvvu naatho silly ga matladava bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Pls enduku antha andham ga untav ra", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu avuna bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu naaku secret chepthava bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please nenu sick ga unte check chesthava nannu kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu naaku compliment enduku ivvatledu bangaram", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please morning lechaka first phone chusthava ra", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Hey late night cravings ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Osi naaku konchem motivation ivvu mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls lunch skip ceyyaku ani ceppana baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please naa new photo ela undi le", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Arey truth or dare lo truth select chesthe bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu aa abbai tho daily enduku matladuthav kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey please maatladu kadha", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Hey haha baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu naaku good gm cheppakapothe ga", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu levu ga, baadhaga vundi kadha", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu na place lo inkokaru vachara ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari nenu msg ki answer ivvakapothe em chesthav", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "na meeda enduku irritation baby", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Pls naa tho future gurinchi imagine chesthava bangaram", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Pls ledu le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu relationship lo space istava le", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Asalu shopping ki veldama bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa feelings ni ardham cheskuntava le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "manam malli normal ga matladukundama bujji", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "sleep time walk ki vasthava ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Ekkada unnav", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Please nee song vinali", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Pls intlo problems baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu naatho unte chaalu kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Pls i love you ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey nenu serious ga matladthunna", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey date fix cheddama", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Please nee tho matladithe butterflies vastunnayi le", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu na photo ki like chesav bujji", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "cook chesanu nee kosam baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi dare ivvu", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Arey nuvvu nannu ignore chesthunnav bujji", "intent": "IGNORING", "domain": "HARD_NEGATIVE"}
+{"text": "Hey na text ki atleast ok ani ceppu baby", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Arey nenu ala anali anukoledu ga", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Please eeroju kaluddam baby", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "eeroju kaluddam baby", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Arey good morning bujji ga", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu tease chesthe nannu bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari busy ga unnav aa le", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu naatho unte baguntundi ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey naaku chala nidra vasthundi le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu irritation lo em chesthav bangaram", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Please intlo problems bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey naa tho life share cheyyalani anipisthunda kadha", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Naa good morning message kosam wait chesthava", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Hey enni sarlu msg chusthunna ga", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Hey nuvvu nannu tease chesthe bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nannu gurthucheskunnava mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls naa profile pic change chesa bujji", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Nuvvu naatho daily matladagalava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nenu cute ga unnaana mari", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please nuvvu na pakkana unte peaceful ga untundi le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu msg chesthe na mood change aipothundi bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari na valla hurt ayyava kadha", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Mari inka levaleda baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "naaku tension ga undi bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari nannu forgive chesthava ga", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Hey nuvvu spicy food ishtapaduthava kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu nannu choose cheskuntava bujji", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Please ila irritate cheyyaku nannu baby", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Nee call miss ayithe em chesthav", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari date fix cheddama", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Nidra vastunna kuda matladalanipisthundi", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu naaku good melukuvachinda ceppakapothe le", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu ignore chesthunnava nannu ra", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Asalu nannu choosthe siggu paduthunnava ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Pls nuvvu levu ga, baadhaga vundi baby", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Hey propose chesa anuko kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "ila irritate cheyyaku nannu ra", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Pls online lo unnav kani reply ledu baby", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Asalu nuvvu surprise plans chesthava bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey naa mood change cheyyagalava mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu na pakkana unte peaceful ga untundi", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey rojantha em chesav mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Nenu special aa neeku", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nuvvu na reply kosam wait chesthava bangaram", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari date lo em matladali ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu na health gurinchi care chesthava mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu ippudu free aa", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu naaku dhairyam chepthava mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvve naa pranam bangaram, chala premisthunna mari", "intent": "ROMANTIC_STATEMENT", "domain": "HARD_NEGATIVE"}
+{"text": "eppudu pelli chesukundam ra", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Arey proud of you kadha", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Hey nenu e roju chala tired ga unna bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu inka konchem teasing ceyyi ra", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "nuvvu reels share chesthava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu chocolate share chesthava le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu chusi blush avuthava nannu mari", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Arey nuvvu nannu baaga hurt chesav", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu naa msg ignore chesthunnav ga", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "mana fight end cheddama ga", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Hey nuvvu nannu gurthosthunnav ayithe message chesthava ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey surprise visit ichana ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu status pettinappudu evaru first chustharu mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please melukuvachinda nunchi nee msg kosam chusthunna le", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Osi weekend em chesthav ga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa mood change ceyyagalava kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please coffee tagutha bujji", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu na response kosam wait chesthava le", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "nuvvu naatho comfortable ga feel avuthava bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu ila chesthe naaku chala hurt avuthundi kadha", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Hey hmm bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Nee photos pampu", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey nuvvu spicy food tinalevu kada ga", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "nenu overthink chesthunna mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi good evening le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nenu ninnu impress chesana le", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari na place lo inkokaru vachara baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi nuvvu nannu gurthucheskoni smile avuthava ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Please mana first chat ela start ayyindi le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari relationship lo trust chala important kadaa ra", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu nannu edipinchaku bujji", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari nee free time eppudu", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu naaku oka compliment ivvu bujji", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu naaku chala nidra vasthundi", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hey nenu cute ga unna na baby", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please evadivi nuvvu naaku", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Osi haa ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu naatho matladithe time ela aipothundo teliyadu le", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please naaku tension ga undi baby", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please baago ledhu baby", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey reply enduku ivvaledu le", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Osi inko memory create cheddama le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu naatho unte baguntundi ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari nuvvu naaku gift isthe em isthav bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa absence ni notice chesthava ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "nee call miss ayithe em chesthav bangaram", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey nuvvu naaku gift isthe em isthav", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu busy lo marchipoyav kadha", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Dance cheddama", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa birthday gurthunda", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey eeroju kaluddam bujji", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "mana future gurinchi matladukundama ga", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu busy lo marchipoyav baby", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Mari matching tattoo vesukondama ra", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Mari naa feelings ni artham cheskuntava le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Hey na message chusi smile vachinda", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey ekkadaki vellavo naku cheppaledhu,chala kopam ga undhi kadha", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Mari movie chuddam mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari em vintunnav ga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi online unnav evaritho chat chesthunnav ga", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Hey ohh ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa status lo nannu tease chesthunnava baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu nee ex gurinchi ceppavu kadha bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "teasing chestha ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu naa absence ni notice chesthava bangaram", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Nenu serious ga matladthunna", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu spicy food ishtapaduthava mari", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi feeling lonely", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu nijanga nannu love chesthunnava baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Asalu nee phone gurthuku vasthunnav ayithe em chesthav ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey nannu aatapattisthunnava ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "anniversary plans bangaram", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Please enduku nannu ila edipisthunnav", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari ippudu call lo matladudama le", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Nuvvu spicy food ishtapaduthava", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi naa birthday gurthunda bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa priority nuvve ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey enduku ila edipisthunnav nannu mari", "intent": "EMOTIONAL_HURT", "domain": "HARD_NEGATIVE"}
+{"text": "ledu baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu night lo ekkuva think chesthava ra", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Asalu intentionally ignore chesthunnava nannu bangaram", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Pls nenu silent ga unte ardham cheskuntava le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Sunset choodadaniki vasthava", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey yedusthunna raa mari", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Osi handsome ga unnav ra", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey busy ga unnav ga", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Hey enduku nannu ila edipisthunnav bangaram", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari neeku oka sari chepthe ardham kaada bangaram", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Please please na meeda kopam vadiley", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Nee kallaloki chusthe tempt aipothunna baby.", "intent": "FLIRT_COMPLIMENT", "domain": "HARD_NEGATIVE"}
+{"text": "Asalu nuvvu challenge accept chesthava kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "naatho matladaku baby", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Pls nuvvu naa jeevitham lo thodu ga undali bujji kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey please maatladu bangaram", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Pls inko memory create cheddama ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu pattinchukovadam ledu baby", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Pls nuvvu na life lo special", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Hey nuvvu naatho unte chaalu kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey nuvvu naa best friend bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "good melukuvachinda bujji bangaram", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu nannu first time chusinappudu em anipinchindi ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu ila bavunnav ga enduku unnav le", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu reply kosam wait chesthunna bangaram", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Arey matladavu enduku bangaram", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Arey lunch chesava ra", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please naa profile pic change chesa le", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey forgive cheyyadaniki chance unda nannu bujji", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Asalu ice cream thindama", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "temple ki veldama bujji", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nuvvu naaku oka secret ceppali kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa tho matladuthu undu", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari nenu dieting lo unna bangaram", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu flowers ishtapaduthava ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nenu mistake chesa bangaram", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Hey nuvvu naaku compliment enduku ivvatledu", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey nuvvu lekunda bore kodthundi bujji", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari manamu future lo bujji", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Please nuvvu natho matladatam ledhu endhuku le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Inkeppudu naku call or message cheyyaku", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Please summer lo chala hot ra", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Please phone lo evarni daachipettav ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey edusthunna", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu na photos inka like ceyyaledu kopama ga", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Please nuvvu naaku good morning cheppakapothe le", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Osi ippudu call lo matladudama bangaram", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari emaina try cheddama kothaga bujji", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari melukuvachinda lo first evarini gurthucheskuntav mari", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu naa valla kaadu baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls enduku bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa messages ignore chesthunnav le", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Please beach ki veldama", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu na tho call lo silent ga unte ra", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari prank chesav", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please chakkaga unnav ga unnav le", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari ledu ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "date ki dress code enti baby", "intent": "COMPLIMENT_OUTFIT", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please valentine's day ki em plan", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu urgent ga cheppu bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu miss avuthunnava nannu ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Please truth cheppali ante kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi eppudu pelli chesukundam bujji", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Osi naaku bad day ayithe naatho untava baby", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu na tho call lo silent ga unte kadha", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey nuvvu miss ayithe em chesthav nannu kadha", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls nuvvu reels share chesthava ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu lekunda bore kodthundi mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari nenu nidrapothe ontariga anipisthundi avuthava ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls manamu future lo kadha", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Pls busy ga unnav ga", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Please naa photo ela undi kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu na life lo important aa ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nannu enduku allari chesthunnav baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu naa new photo ela undi kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari truth or dare lo truth select chesthe le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari nannu aatapattisthunnava", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey please na meeda gussa vadiley bujji", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Arey nee friend evaru adi ga", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey vellipotha le", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Please valentine's day ki em plan bangaram", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Pls please maatladu bujji", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Arey na meeda jealousy testhunnava ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please naa good morning message kosam wait chesthava", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu naatho unte chaalu ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu naatho dinner ki vastava", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Arey nannu intentionally pattinchukovadam ledu chesthunnava ra", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Hey nenu mistake chesa mari", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Pls nuvvu nannu first time chusinappudu baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nannu forgive chesthava bangaram", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Hey last seen check chesthunna ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please neeku thelida sare kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "sorry ra le", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "aa photo lo unna ammayi evaru ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari naa voice vinagane em anipisthundi mari", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey nuvvu nannu miss ayithe message chesthava ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls nenu gym ki velthunna ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls yedusthunna raa", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu nannu gurthucheskunnava", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari ekkadaki vellavo naku cheppaledhu,chala chiraku ga undhi mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "nenu vere vallatho matladithe jealous avuthava le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu inka konchem teasing cheyyi ra", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please nee friend evaru adi", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey nee voice vinagalana ra", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi nuvvu naatho photo diguthava kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "nee tho matladanu le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Osi nuvvu na photo chusi em anukunnav kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "late sweet dreams cravings bujji", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu na reel chusava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please busy ante naaku reply kuda cheyyava ga", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Mari na meeda jealousy testhunnava kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari teasing chestha le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Pls neeku thelida sare baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu naaku random question adugu bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari mana iddharame ekkadikaina trip veldhama bujji bujji", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Hey park ki veldama bujji", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Hey naa status chusava le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey coffee date ki veldama le", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu online unnav inka padukoleda bangaram", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Asalu all the best kadha", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Pls enduku tease chesthunnav nannu bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "naa tho secret share chesthava mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "nuvvu na tho call lo silent ga unte bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls nuvvu naaku gift isthe em isthav bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nee eyes chala bagunnayi ga", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "block chestha bangaram", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Please life lo inka naku phone or message ceyyaku", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Nenu jealous avthunna", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu nannu genuine ga premisthunnava bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu mana first meeting gurthunda kadha", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nenu fail ayithe bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu nannu good morning lo text chesthava baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "naa smile gurinchi cheppu", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "nuvvu levu ga, baadhaga vundi kadha", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Nannu enduku ignore chesthunnav", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Pls nenu sad ga unna ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi naa selfie ki honest rating ivvu ga", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi nuvvu ippudu free aa baby", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "naa good night message gurthuntunda", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu reels share chesthava le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari temple ki veldama kadha", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu nacchav bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Asalu nenu ninnu hurt chesana bujji", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Arey nuvvu wait cheyinchav nannu", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu nannu ontariga anipisthundi ayithe text chesthava ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Please nuvvu na reply kosam wait chesthava ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Hey group trip plan kadha", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Arey padukoledu", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Asalu na feelings ni serious ga teesukovatledu", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please feelings cheppu kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey hmm bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa priority nuvve kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nuvvu nannu baaga hurt chesav le", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Enduku reply ivvatledu?", "intent": "NO_REPLY", "domain": "HARD_NEGATIVE"}
+{"text": "Pls nuvvu first ga call chesthava ga", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please nuvvu na absence notice chesthava bangaram", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari nuvvu nannu enduku like chesthav ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "nenu entha sepu wait cheyyali mari", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Arey nuvvu chala manchi vadivi mari", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "nuvvu natho matladatam ledhu endhuku ra", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Date lo awkward silence vasthe", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nuvvu naaku oka compliment ivvu ra", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls nee tho matladithe butterflies vastunnayi baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Naa status chusava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari late night call cheddama ra", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Osi naa selfie ki honest rating ivvu le", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey phone petti paduko bujji", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Nuvvu na health gurinchi enduku aduguthav", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu naatho movie ki vasthava ra", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu andaritho ilaane untava mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari nuvvu chusthe em anipisthundi nannu", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Osi naa meeda gussa unnav kadha", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "nuvvu choose cheskuntava nannu mari", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Hey tension lo unna ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nenu neeku entha important bangaram", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "nuvvu good sweet dreams ceppakunda vellipoyav ra", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Arey naku bad mood ga undi bujji le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu naaku secret chepthava bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu instagram post chusava bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu naatho movie ki vasthava bangaram", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu ila cute ga enduku unnav bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Pls nuvvu eppudu ilage chesthav baby", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "nuvvu late ga tinte le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari video call cheyyi baby", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey na gurinchi emi alochistunnav ga", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey nuvvu naaku good morning ceppakapothe bangaram", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "na meeda jealousy testhunnava baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu inko memory create cheddama ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey mana best memory enti kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nee hairstyle baagundi bangaram", "intent": "COMPLIMENT_OUTFIT", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey nuvvu na health gurinchi care chesthava", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu nannu chusi blush avuthava kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu sunset choodadaniki vasthava ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nuvvu nannu motivate ceyyi kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu spontaneous date ki okay aa bujji", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa good morning message kosam wait chesthava le", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu prank chesav bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari evarini neeku pelli chestha antunnaru bujji", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Osi manam fight ayyam kada mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Hey eppudu vasthav ga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "naa eyes nachaya baby", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari nuvvu nannu intha perfect ga ela artham chesukuntav bujji bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu nee song vinali ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu naa life baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Asalu manchiga paduko bujji", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu nannu ignore chesthunnava ra", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "nuvvu jealous ayithe em chesthav kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Hey nenu fail ayithe", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey nee call miss ayithe em chesthav le", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls nuvvu jealous avuthava baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please nuvvu entha ishtapaduthav nannu ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please em thinnav le", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi rojantha em chesav baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls hungry ga undi le", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Arey avunu bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naku bad mood ga undi bujji baby", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu naa life bujji", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nidra vastunna kuda matladalanipisthundi mari", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Pls jealous avuthunna kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls selfie pampu ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu urgent ga ceppu le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi truth or dare lo truth select chesthe ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please sorry ra ga", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Osi enti le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey na valla hurt ayyava", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Asalu nuvvu naaku secret chepthava baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi nuvvu natho enduku ila matladuthunnav mari", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Hey coffee tagutha ga", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Hey nee photos pampu baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Osi manam fight ayyam kada", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Asalu naa phone enduku lift ceyyaledu", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please sorry ga", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Pls evadivi nuvvu naaku bujji", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "naaku bad day ayithe naatho untava bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey padukoledu bujji", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hey naa eyes nachaya mari", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari enni sarlu msg chusthunna ra", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Mari manchiga paduko kadha", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "work ela jaruguthundi kadha", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Osi naa tho secret share chesthava baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari hungry ga undhi le", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu gurthucheskoni smile avuthava nannu mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls nuvvu trust chesthava nannu ga", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu vere vallani like chesthunnava kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Nuvvu naatho dinner ki vastava", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Mari naa voice vinagane em anipisthundi le", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "nuvvu lekunda bore kodthundi bangaram", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey naa meeda possessive ga untava bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "naa new photo ela undi bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "padukoledu bangaram", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu naatho close ga untava baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "nuvvu early ga lechithe naaku message chesthava bangaram", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu aa ammayi tho enduku antha close ga unnav baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari nee hairstyle baagundhi", "intent": "COMPLIMENT_OUTFIT", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi nuvvu kopam lo em chesthav mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "morning nunchi nee msg kosam chusthunna le", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "evadivi nuvvu naaku baby", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Pls nuvvu naaku oka compliment ivvu kadha", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls hello kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey tea tho chat cheddama kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Pls ekkadaki vellavo naku ceppaledhu,chala irritation ga undi mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Pls naa priority nuvve bujji", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Asalu nenu serious ga matladthunna bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls naa photo ela undhi bujji", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu nee call miss ayithe em chesthav ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls enni sarlu msg chusthunna ra", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Please nenu ninnu impress chesana ra", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "evaritho chat chesthunnav baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu surprise plans chesthava kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nuvvu nannu flirt chesthunnav kada", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi jealous avuthunna le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu nidra vastunna kuda matladalanipisthundi baby", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nenu cute ga unna na le", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu life lo em kavali neeku ga", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "eppudu vasthav ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu funny ga unnav bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Naatho time spend chesthava", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Pls matching dress vesukundama ra", "intent": "COMPLIMENT_OUTFIT", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please nenu entha sepu wait cheyyali ra", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Mari project stress", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu medicine teesukunnava le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu na pic ni chusi blush ayyava le", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi malli eppudu naku phone or text cheyyaku le", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Hey nannu tease ceyyaku baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please long drive ki veldama le", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Arey hungry but lazy mari", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Mari nenu entha sepu wait cheyyali le", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Asalu ekkada unnav bangaram", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey tension lo unna bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi em chesthunnav bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls naa status lo nannu allari chesthunnava kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu nuvvu miss avuthunnav ani ceppava nannu baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls last seen check chesthunna kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari nenu reply ivvakapothe em chesthav bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey na valla hurt ayyava bangaram", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Pls propose chesa anuko bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu levu ga, baadhaga vundi ga", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Arey gift em kavali ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi manam malli normal ga matladukundama le", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Asalu movie chustunnav bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nuvvu spicy food ishtapaduthava baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu maripoyav", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Asalu emaina try cheddama kothaga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu break teesukunnava mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu call ceyyi mari", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "nuvvu chusi blush avuthava nannu ra", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari group trip plan bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nannu enduku tease chesthunnav", "intent": "TEASING", "domain": "HARD_NEGATIVE"}
+{"text": "Mari nuvvu birthday lo em expect chesthav bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls interview ki velthunna ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please outing ki veldaam mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nee valla naaku baadha ga undhi ra", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari block chestha baby", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Asalu naa call kosam wait chesthava", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please nuvvu reels share chesthava bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu lazy ga unnav mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi tired ga undi bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu spontaneous date ki okay aa le", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nenu mistake chesa baby", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Hey nuvvu first ga call chesthava bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi naa status lo nannu teasing chesthunnava baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari evarini neeku pelli chestha antunnaru", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Osi vaddhu matladaku kadha", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Mari exam undhi", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls mana iddharame ekkadikaina trip veldhama bujji baby", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi prank chesav bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu nuvvu voice note pampithe mari", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Inka kopam lone unnav aa", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Asalu nuvvu naatho dinner ki vastava kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "naa good night message gurthuntunda ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Pls dare ivvu bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari weekend em chesthav ga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi phone lo evarni daachipettav", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi na place lo inkokaru vachara bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari nuvvu enduku ishtapaduthunnav nannu bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari rojantha em chesav baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey naa valla kaadu ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey naa feelings ni ardham cheskuntava ra", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Asalu naa selfie lo best part enti bangaram", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi nuvvu flowers ishtapaduthava bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi reply enduku late ayyindi kadha", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Pls mana fight end cheddama ga", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Arey na meeda jealousy testhunnava", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey night walk ki vasthava", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "morning bujji nunchi nee msg kosam chusthunna mari", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu nannu morning lo text chesthava kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi surprise visit ichana", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari nuvvu miss avuthunnav ani cheppava nannu mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu jealous avuthava bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please biryani tinadaniki veldam mari", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu naaku compliment enduku ivvatledu bangaram", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Nuvvu em battalu vesukunnav", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa status lo tease chesthunnava nannu bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please mana iddharame ekkadikaina trip veldhama bujji ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Hey office ki vellava mari", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Osi naa selfie ki honest rating ivvu bujji", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu matching dress vesukundama ra", "intent": "COMPLIMENT_OUTFIT", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu nuvvu nenu lekunda bored avuthava mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari naa tho future gurinchi imagine chesthava ra", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Hey na feelings ni serious ga teesukovatledu mari", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Pls nuvvu spontaneous date ki okay aa baby", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Mari call lo matladam padukune mundu baby", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hey instagram post chusava ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa valla kaadu le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi temple ki veldama bujji", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi lunch skip ceyyaku ani ceppana bangaram", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Hey evaritho chat chesthunnav ga", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Hey anniversary plans bangaram", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Pls nuvvu first message chesthava bujji", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Arey propose chesa anuko ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "naa selfie lo best part enti kadha", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "nuvvu nannu crush laga chusthunnava kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey nannu enduku teasing chesthunnav ga", "intent": "TEASING", "domain": "HARD_NEGATIVE"}
+{"text": "Pls stress lo unna ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey naa meeda kopamga unnav", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "nenu sad ga unna ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi travel plan cheddama bujji", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu levu ga, baadhaga vundi bangaram", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "nenu crying mood lo unna le", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please nee song vinali bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu jokes baaga chepthava", "intent": "JOKING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Arey nenu sick ga unte check chesthava nannu ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey park ki veldama mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Arey instagram post chusava ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu jealous avuthava bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi nuvvu na absence notice chesthava mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "nenu miss chestunaanu bujji", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "nuvvu andaritho ilaane untava bujji", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu naa voice vinagane em anipisthundi", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari nuvvu medicine teesukunnava bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey chali ga undi baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey naa selfie lo best part enti", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi eppudu pelli chesukundam baby", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Nuvvu nannu choose cheskuntava", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "lunch skip cheyyaku ani cheppana ga", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please mana fight end cheddama", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Pls nuvvu jealous avuthava", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey office lo busy mari", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Pls naa messages ignore chesthunnav le", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Hey valentine's day ki em plan baby", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "naa meeda doubt unda bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls naa kosam oka song paadu mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu naa call kosam wait chesthava bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari nee meeda trust undhi", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu naa phone enduku lift cheyyaledu", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi call cheyyi bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "naa meeda kopam inka poleda kadha", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Mari long drive ki veldama bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nuvvu naatho movie ki vasthava", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey ippudu em chesthunnav le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu na photos inka like cheyyaledu kopam", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Mari nuvvu chusi blush avuthava nannu ga", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey date lo em matladali ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Arey varsham paduthondi ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu nannu date ki official ga aduguthava ra", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Hey late ga unnav le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Pls manam malli normal ga matladukundama ra", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "Pls weekend em chesthav", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Naa tho date ki vasthava", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Arey forgive cheyyadaniki chance unda nannu bujji", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Mari nuvvu na life lo important aa le", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari naa tho secret share chesthava baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please inka ila chesthe nenu maatladanu", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Please nuvvu ippudu free aa le", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu nenu lekunda bored avuthava baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Hey nuvvu busy lo marchipoyav mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Mari office ki vellava ga", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Mari nuvvu early ga lechithe naaku msg chesthava bujji", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Nuvvu na photo ki like chesav", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari sunset choodadaniki vasthava bujji", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey online lo unnav kani text back ledu kadha", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Osi matching tattoo vesukondama mari", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Hey dinner chesava ra", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Asalu late night cravings ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu chocolate share chesthava mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Exam undhi", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi nuvvu naaku care chupisthe andham ga anipisthundi ra", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey sorry ga", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Nannu forgive chesthava", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "jealous avuthunna bujji", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Hey na place lo inkokaru vachara bangaram", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please nuvvu birthday lo em expect chesthav mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls naa nickname em pedathav mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu nuvvu enduku ishtapaduthunnav nannu", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu good sweet dreams ceppakunda vellipoyav ga", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Pls nuvvu smart bujji", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey eeroju full dull ga undhi", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please naa status lo nannu teasing chesthunnava baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "nee best friend evaru baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey nuvvu naatho dinner ki vastava ra", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu naaku oka secret ceppali", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu morning lo happy ga untava", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Hey na message chusi smile vachinda bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu message chesthe na mood change aipothundi ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari naa kosam wait chesthava kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please free ayyaka call ceyyi kadha", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please na meeda enduku chiraku bujji", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Arey nenu sad ga unna ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu nannu intha perfect ga ela artham chesukuntav bujji ga", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Pls naa good morning bujji message kosam wait chesthava ra", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu chala manchi vadivi ra", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please propose chesa anuko baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nuvvu na reel chusava bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa good morning bujji message late ayithe mari", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Please nenu mistake chesa ra", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "hmm ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu text chesthe na mood change aipothundi le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu naaku oka compliment ivvu baby", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi chakkaga unnav ga unnav", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please naa tho matladuthu undu", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "nuvvu natho matladatam ledhu endhuku le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Hey nuvvu free eppudu avuthav bujji", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Hey message chusi kuda response ivvaledu ga", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Asalu nuvvu nannu miss avuthunnav ani ceppava ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu padukoledu ra", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hey sunset choodadaniki vasthava bujji", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Arey shopping ki veldama mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu entha ishtapaduthav nannu ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari morning lo first evarini gurthucheskuntav bujji", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu sudden ga silent ayithe le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls naa status lo tease chesthunnava nannu kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu naa meeda kopam undha ga", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Arey naa profile pic change chesa", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi nuvvu gn lo ekkuva think chesthava ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu nannu first time chusinappudu ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi massage ceyyi kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls kk mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Nannu enduku tease chesthunnav?", "intent": "TEASING", "domain": "HARD_NEGATIVE"}
+{"text": "Nuvvu naatho movie ki vasthava", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nenu gym ki velthunna le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Summer lo chala hot", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu pedda flirt vi bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please nuvvu different kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari nannu forgive chesthava baby", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Group trip plan", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nuvvu different", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Late night call cheddama", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "naa call kosam wait chesthava", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari surprise visit ichana ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Hey nuvvu na pakkana unte peaceful ga untundi bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls naa eyes gurinchi cheppu baby", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please exam pass ayyanu baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey nuvvu naaku message ceyyakapothe ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Hey kk ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nenu dieting lo unna baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Pls naa meeda kopam inka poleda bujji", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "em jarigindi reply enduku ledu kadha", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Arey nuvvu na health gurinchi care chesthava bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey naa kosam oka song paadu ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Pls nuvvu natho enduku ila matladuthunnav kadha", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Hey edusthunna bujji", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "nuvvu na photo ki like chesav bujji", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Pls naa mood change ceyyagalava mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey naaku tension ga undi mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Date lo first em order chesthav", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "em jarigindi reply enduku ledu mari", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "nenu happy ga unnanu le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu spontaneous date ki okay aa baby", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nee tho matladanu", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Please nuvvu nannu miss ayithe message chesthava ra", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari morning lechaka first phone chusthava bangaram", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Please na gurinchi em anukuntunnav mari", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Pls ice cream thindama ga", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu nannu navvinchagalava kadha", "intent": "JOKING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Arey eppudu last msg chesav bujji", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Osi naa tho matladithe ela anipisthundi bujji", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "salary ochindhi kadha", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu naa jeevitham lo thodu ga undali bujji bangaram", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please naa feelings ni ardham cheskuntava bujji", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Pls naa tho matladithe ela anipisthundi", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please enduku ignore chesthunnav nannu baby", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Mari tea tho chat cheddama kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Arey nee best friend evaru mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls naaku konchem motivation ivvu le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please nenu sad ga unna ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nannu kante vaallatho ekkuva matladuthunnav ga", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please nenu miss chestunaanu bujji", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "date lo first em order chesthav ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey em thinnav bangaram", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Arey interview ki velthunna mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Bore ga undhi", "intent": "BOREDOM", "domain": "PLANS_OUTINGS"}
+{"text": "Osi naa smile ki rating entha kadha", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please naa photo lo em nachindi bujji", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Pls nuvvu surprise plans chesthava ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu natho enduku ila matladuthunnav mari", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Asalu nenu andham ga unnaana ra", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari na message chadivava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls valentine's day ki em plan ra", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "walking ki veldama evening baby", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu spicy food tinalevu kada baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Mari inko memory create cheddama bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey good good night le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Mari eroju baaga cheyyi ra", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu nannu choose cheskuntava baby", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Osi nuvvu naa jeevitham lo thodu ga undali bujji baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu pedda flirt vi bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi nuvvu levu ga, baadhaga vundi le", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari naaku surprise ivvu le", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey naatho time spend chesthava ra", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Osi sare le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "good gn kadha", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Please date ki veldaam", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu nannu nammutunnava mari", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu naa exam result kosam wish cheyyi le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey nenu manchi ga unna nuvvu kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Pls coffee tagutha bujji", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu naatho unte baguntundi ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari naa selfie lo best part enti", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls nuvvu jokes baaga chepthava bangaram", "intent": "JOKING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Nuvvu free ayyaka ping ceyyi", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Pls naku emaina gift isthava bujji baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please project stress baby", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "na valla hurt ayyava bujji", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Osi ippudu call lo matladudama bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey exam pass ayyanu ga", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "nuvvu daily choodalani anukuntava nannu", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey hungry but lazy", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Mari evarini neeku pelli chestha antunnaru ga", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Asalu fight ayyaka first evaru sorry ceppali bujji", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Arey enduku text back ivvatledu ra", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Nuvvu natho enduku ila matladuthunnav", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Osi nannu navvinchagalava baby", "intent": "JOKING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Arey nuvvu medicine teesukunnava", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu photos ekkuva teesukuntava baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu naku chala important ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi call ceyyi bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey movie chuddam kadha", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu na gurinchi em anukuntunnav kadha", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Osi ledu bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi travel plan cheddama le", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Outing ki veldaam", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Arey office lo busy le", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Arey evaritho chat chesthunnav mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey nenu ninnu hurt chesana bujji", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari naaku nee meeda kopam vachindi ga", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Osi naa birthday gurthunda kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu nidra mundu evarini think chesthav le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Osi yedusthunna raa mari", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please nuvvu tired ga unte em ceyyali kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nee valla naaku baadha ga undhi le", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Hey manam disagreement vachina okay na mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Please lunch skip cheyyaku ani cheppana baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi hungry but lazy kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Asalu naa eyes gurinchi ceppu baby", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "tired ga undi mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu pattinchukovadam ledu le", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Arey nee meeda trust undhi kadha", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "nidra vasthundha mari", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Pls naa mood change cheyyagalava bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu na text kosam wait chesthava kadha", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Hey naa priority nuvve le", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey urgent ga ceppu ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari good good morning bujji", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "late gn phone cheddama le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu tired ga unte em ceyyali", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu jealous avuthava mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please evarini neeku pelli chestha antunnaru baby", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Pls instagram post chusava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naaku nee meeda kopam vachindi bangaram", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Nee ex gurinchi cheppavu kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu nannu enduku tease chesthunnav ra", "intent": "TEASING", "domain": "HARD_NEGATIVE"}
+{"text": "Arey block chestha bangaram", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Mari nuvvu first date lo nervous avuthava mari", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Osi inka levaleda mari", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "nenu neeku entha important mari", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Arey naa pic save chesava le", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari tea tho chat cheddama mari", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "nenu crying mood lo unna bujji", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "nannu enduku ignore chesthunnav baby", "intent": "IGNORING", "domain": "CONFLICT"}
+{"text": "Asalu nenu ala anali anukoledu baby", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Osi salary ochindhi baby", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu morning lo text chesthava nannu bujji", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari nuvvu first date lo nervous avuthava ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa call kosam wait chesthava baby", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please nenu overthink chesthunna le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Emaina try cheddama kothaga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nuvvu challenge accept chesthava le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please travel plan cheddama le", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "birthday ki em istav", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Osi nuvvu message chesthe na mood change aipothundi ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari eeroju kaluddam bangaram", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Osi hmm ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey late night call cheddama ra", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Asalu naa birthday gurthunda le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nee best friend evaru ga", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey naatho matladaku mari", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Arey weekend em chesthav ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Hey naaku headache ga undi bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi naa smile ki rating entha baby", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please na feelings ni serious ga teesukovatledu", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Hey teasing chestha bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi nuvvu nannu date ki official ga aduguthava bujji", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Mari nuvvu status pettinappudu evaru first chustharu le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nuvvu status pettinappudu evaru first chustharu ra", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu naa birthday gurthundha kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu handsome ga unnav mari", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please nuvvu first date lo nervous avuthava ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Mari valentine's day ki em plan le", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "nuvvu ippudu free aa bujji", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Pls hot ga undi kadha", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu mana first date ekkada undali mari", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "inkeppudu naku call or message ceyyaku le", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Osi office lo busy ga", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Hey message chusi kuda reply ivvaledu ga", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Mari late ga unnav bangaram", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu nannu teasing chesthe baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari beach ki veldama ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Arey work ela jaruguthundi", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Pls kaburlu ceppukundama kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari enduku ila edipisthunnav nannu le", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please nuvvu na health gurinchi enduku aduguthav ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey naa birthday gurthunda", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey varsham paduthondi le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nenu silent ga unte artham cheskuntava bujji", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Pls nenu fail ayithe ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu songs vintava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Nuvvu na health gurinchi care chesthava", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "fight ayyaka first evaru sorry cheppali baby", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Mari nuvvu thin ga unnav", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi nuvvu na reel chusava ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu spicy food tinalevu kada le", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Hey hungry but lazy ra", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Asalu truth ceppali ante bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please nuvvu vere vallani like chesthunnava ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls movie chustunnav mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu spicy food tinalevu kada", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu nannu enduku ishtapaduthunnav kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nuvvu naatho matladithe time ela aipothundo teliyadu kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "enduku ila edipisthunnav nannu kadha", "intent": "EMOTIONAL_HURT", "domain": "HARD_NEGATIVE"}
+{"text": "Osi nuvvu naatho matladatledu", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls naa eyes gurinchi ceppu kadha", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari evaritho chat chesthunnav mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please na message chadivava baby", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu nuvvu naatho relationship lo serious ga untava ra", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Arey nannu allari ceyyaku ga", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please message chusi kuda reply ivvaledu bangaram", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Asalu nee eyes chala bagunnayi", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey nuvvu lekunda bore kodthundi kadha", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari nuvvu natho matladatam ledhu endhuku bujji", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Osi manamu future lo baby", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu nee friend evaru adi kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey date fix cheddama ga", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Osi bhojanam chesava bujji", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu good night cheppakunda vellipoyav baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Osi call ceyyi kadha", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari busy ga unnav mari", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Hey naa selfie ki honest rating ivvu bujji", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari nuvvu naaku random question adugu bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nenu overthink chesthunna ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu na health gurinchi enduku aduguthav ra", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu naatho honest ga matladuthunnava", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari truth or dare lo truth select chesthe kadha", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Arey evaritho matladuthunnav le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please i love you kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please nuvvu good sleep time cheppakunda vellipothe mari", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "nee best friend evaru mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls nuvvu nidra mundu nannu gurthucheskuntava mari", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Please hungry ga undi ga", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "free ayyaka voice call ceyyi ra", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari nenu manchi ga unna nuvvu le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Arey nuvvu chocolate share chesthava ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu na reel chusava bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please intlo problems bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari naa kosam wait chesthava ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu first ga voice call chesthava le", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu nuvvu miss ayithe message chesthava nannu baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "naa status ki reply enduku ivvaledu bangaram", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Pls naa nickname em pedathav bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari aa person evaru mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey exam pass ayyanu bujji", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Hey naa new photo ela undi baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu calm chesthava nannu mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu 5 years lo ekkaduntav bangaram", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "outing ki veldaam kadha", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Good morning bujji!", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nenu gym ki velthunna bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi nee gurinche alochisthunna baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey nuvvu nannu navvinchagalava ga", "intent": "JOKING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Please naaku tension ga undi", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey life lo em kavali neeku mari", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Mari nuvvu impress chesana nannu bujji", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Nee gurinche alochisthunna", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Osi nee dream enti le", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Asalu block chestha mari", "intent": "BREAKUP_THREATS", "domain": "CONFLICT"}
+{"text": "Mari intlo problems kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls nenu gym ki velthunna", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Please nuvvu natho enduku ila matladuthunnav ra", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Arey nee valla naaku baadha ga undhi baby", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Osi valentine's day ki em plan", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Mari nenu special aa neeku ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please naku chala bore ga undhi kadha", "intent": "BOREDOM", "domain": "PLANS_OUTINGS"}
+{"text": "Hey hey bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu naaku chala important bujji", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Please sorry ra ra", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Asalu nuvvu asalu care cheyyatledu", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari naku headphones kavali baby", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please hungry but lazy baby", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi naa birthday gurthundha bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu haha le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu naatho dinner ki vastava kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Asalu aa photo lo unna ammayi evaru", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Mari sare ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu sudden ga silent ayithe mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu manamu future lo ga", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Osi response late ga ichav baby", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Mana fight end cheddama", "intent": "RECONCILIATION", "domain": "CONFLICT"}
+{"text": "enti kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari eppudu last msg chesav le", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu evaritho chat chesthunnav ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Hey naatho enduku ila aadukuntunnav ra", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "nuvvu nannu edipinchaku ga", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Osi aa ammayi tho enduku antha close ga unnav le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "tired ga undhi mari", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey naa kosam oka song suggest cheyyi kadha", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu funny ga unnav le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey dance cheddama ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Osi ninnu gurthuku vasthunnav avthunna bujji", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "nenu fail ayithe bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari evaritho matladuthunnav ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Nenu nee crush aa", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "naa meeda possessive ga untava baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey nuvvu nannu good morning lo text chesthava kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi movie chustunnav ra", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu na absence notice chesthava ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Osi group trip plan mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu na photo chusi em anukunnav", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey naa selfie ki honest rating ivvu mari", "intent": "PHOTO_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Please tea tagudama mari", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu nidra mundu evarini think chesthav bangaram", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hey nuvvu nacchav mari", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari nenu e roju chala tired ga unna ra", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Mari naa gurinchi emaina special ga cheppu bujji", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey free ayyaka phone cheyyi baby", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Mari nuvvu naatho daily matladagalava le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please movie chustunnav kadha", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Pls na place lo inkokaru vachara kadha", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "travel plan cheddama mari", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu nannu ontariga anipisthundi avuthunnava le", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Pls manam disagreement vachina okay na le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Osi nuvvu naaku chance isthava baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Arey naa good night message gurthuntunda ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu songs vintava", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu naa secret evariki cheppaku ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi eppudu kanipisthav mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey nuvvu na tho flirt chesthunnava le", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari naaku nee meeda kopam vachindi baby", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Please em vintunnav bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu antha bore job", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Asalu naa gurinchi first impression enti mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nannu enduku tease chesthunnav bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nuvvu naa life ga", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey coffee tagutha kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Hey online unnav evaritho chat chesthunnav ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Asalu antha bore job mari", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu na life lo important aa ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey nuvvu free eppudu avuthav baby", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu night lo ekkuva think chesthava le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Mari enduku ila edipisthunnav nannu baby", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please aa person evaru baby", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "nenu manchi ga unna nuvvu baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey office ki vellava baby", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu nannu choose cheskuntava mari", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Hey nuvvu status pettinappudu evaru first chustharu mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Mari natho eppudu untava ga", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Mari nuvvu marchipoyav baby", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Osi nenu reply ivvakapothe em chesthav bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu em battalu vesukunnav ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nenu overthink chesthunna bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Please naa good gn message gurthuntunda baby", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu baaga hurt chesav nannu le", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please na message chadivava ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nuvvu ignore chesthunnav nannu bangaram", "intent": "IGNORING", "domain": "HARD_NEGATIVE"}
+{"text": "Pls nuvvu nacchav naaku baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Hey naa good morning message kosam wait chesthava bangaram", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Please enduku ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey prank chesav baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nenu ninnu impress chesana bangaram", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Mari enduku antha cute ga untav bujji", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Pls nuvvu gurthochav baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu naaku dhairyam chepthava bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Baago ledhu", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls nuvvu na response kosam wait chesthava baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "date lo em matladali", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Hey interview ki velthunna kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey nenu crying mood lo unna bangaram", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Please online unnav evaritho chat chesthunnav mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "kk bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "nuvvu nannu entha often gurthucheskuntav ga", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Osi salary ochindhi ra", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nuvvu na health gurinchi care chesthava ga", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Pls na meeda enduku kopam mari", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Osi nuvvu game lo cheat chesthava bujji", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Asalu sweet dreams ra kadha", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Osi paduko inka bujji", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu naku chala important kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu birthday lo em expect chesthav ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi naa eyes gurinchi ceppu ga", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "nuvvu na msg ki answer kosam wait chesthava mari", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Please aa photo lo unna ammayi evaru bujji", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi nee dream enti mari", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Please neeku thelida sare bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi walking ki veldama evening le", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Asalu neeku oka sari chepthe artham kaada kadha", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Please mana future gurinchi matladukundama ga", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "Asalu nuvvu naatho matladatledu bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey baago ledhu bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Hey anniversary plans bujji", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "inkeppudu naku phone or message ceyyaku kadha", "intent": "BREAKUP_THREATS", "domain": "HARD_NEGATIVE"}
+{"text": "Naa meeda kopam undha", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Hey nuvvu nacchav le", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Pls night walk ki vasthava ga", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu jealous avuthava ra", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Please dinner chesava", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi nuvvu ila chesthe naaku chala hurt avuthundi ra", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Mari enduku reply ivvatledu mari", "intent": "NO_REPLY", "domain": "HARD_NEGATIVE"}
+{"text": "Osi em vintunnav le", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nee tho matladithe butterflies vastunnayi", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Arey eppudu kanipisthav kadha", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Osi phone lo evarni daachipettav mari", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Arey vadilesi vellipovu kada nannu baby", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Please dance cheddama ga", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "nannu enduku allari chesthunnav baby", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi phone charge aipothundhi bujji", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Nuvvu naaku oka compliment ivvu", "intent": "COMPLIMENT_LOOKS", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Hey ekkada unnav", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Please nijama bujji", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu nannu intha perfect ga ela artham chesukuntav bujji baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Hey mana best memory enti ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Asalu em chesthunnav kadha", "intent": "DAILY_ACTIVITY", "domain": "DAILY_RITUALS"}
+{"text": "Pls nee free time eppudu bangaram", "intent": "MOVIE_TRIP", "domain": "PLANS_OUTINGS"}
+{"text": "Please nuvvu eppudu ilage chesthav", "intent": "CONFLICT_FRUSTRATION", "domain": "CONFLICT"}
+{"text": "Osi good evening mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey nuvvu natho matladatam ledhu endhuku", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "haa mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Arey gussa ga unna le", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "nuvvu naatho matladatledu mari", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Naa meeda kopamga unnav", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Asalu naa photo ela undhi", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Osi chala miss avthunna avthunna bujji, eppudu vasthav ga", "intent": "MISSING", "domain": "HARD_NEGATIVE"}
+{"text": "Asalu eeroju full dull ga undhi bujji", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Arey reply enduku late ayyindi mari", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "Mari matching dress vesukundama ga", "intent": "COMPLIMENT_OUTFIT", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Osi feeling lonely baby", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey nuvvu challenge accept chesthava mari", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Na message chusi smile vachinda", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}
+{"text": "Asalu rojantha em chesav bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey naatho time spend chesthava bangaram", "intent": "DATE_REQUEST", "domain": "PLANS_OUTINGS"}
+{"text": "Mari nidra vastunna kuda matladalanipisthundi le", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "phone lo evarni daachipettav le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Pls nuvvu medicine teesukunnava kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "Osi nannu enduku allari chesthunnav kadha", "intent": "TEASING", "domain": "HARD_NEGATIVE"}
+{"text": "Arey inka levaleda ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu miss avuthunnava nannu le", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Mari ippudu call lo matladudama ga", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Arey night walk ki vasthava bangaram", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Hmm", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari yedusthunna raa bangaram", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Pls nuvvu na secret guess ceyyagalava bangaram", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Hey nuvvu nannu chala special ga treat chesthunnav bujji kadha", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari nuvvu nannu miss avthunna ayithe em chesthav bujji", "intent": "MISSING", "domain": "ROMANCE"}
+{"text": "Arey good evening ra", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nuvvu pedda flirt vi le", "intent": "TEASING", "domain": "PLAYFUL_HUMOR"}
+{"text": "Osi melukuvachinda lechaka first phone chusthava ra", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Osi kaburlu ceppukundama bangaram", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Hey nuvvu baaga hurt chesav nannu mari", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Hey naa good melukuvachinda msg late ayithe le", "intent": "GREETING_MORNING", "domain": "DAILY_RITUALS"}
+{"text": "Asalu nee voice vinali kadha", "intent": "CALL_REQUEST", "domain": "COMPLIMENTS_MEDIA"}
+{"text": "Asalu naa priority nuvve ra", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Mari naaku chala nidra vasthundi bangaram", "intent": "GREETING_NIGHT", "domain": "DAILY_RITUALS"}
+{"text": "Please inko memory create cheddama", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Pls evadivi nuvvu naaku", "intent": "ANGER_ARGUMENT", "domain": "CONFLICT"}
+{"text": "Asalu natho eppudu untava ra", "intent": "DEEP_BOND", "domain": "ROMANCE"}
+{"text": "Mari enduku le", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Mari tinnava kadha", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Osi edusthunna baby", "intent": "EMOTIONAL_HURT", "domain": "CONFLICT"}
+{"text": "Asalu walking ki veldama evening bangaram", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "cook chesanu nee kosam bangaram", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Please instagram post chusava ga", "intent": "GENERAL_CHAT", "domain": "PLANS_OUTINGS"}
+{"text": "Osi nee best friend evaru le", "intent": "JEALOUSY", "domain": "ROMANCE"}
+{"text": "Osi nuvvu commitment ni serious ga teesukuntava", "intent": "PROPOSAL", "domain": "ROMANCE"}
+{"text": "sorry ra bujji", "intent": "APOLOGY_SEEKING", "domain": "CONFLICT"}
+{"text": "Asalu reply late ga ichav mari", "intent": "NO_REPLY", "domain": "CONFLICT"}
+{"text": "gift em kavali baby", "intent": "ROMANTIC_STATEMENT", "domain": "ROMANCE"}
+{"text": "Arey nuvvu spicy food tinalevu kada bujji", "intent": "FOOD_CHECK", "domain": "DAILY_RITUALS"}
+{"text": "Arey nuvvu break teesukunnava kadha", "intent": "HEALTH_CARE", "domain": "DAILY_RITUALS"}
+{"text": "nuvvu nannu impress chesana baby", "intent": "FLIRT_COMPLIMENT", "domain": "ROMANCE"}

@@ -142,9 +142,24 @@ fun FloatingOverlayContent(
 
     // Suggestion and Tone states
     val scope = rememberCoroutineScope()
-    var suggestionsList by remember { mutableStateOf<List<String>>(emptyList()) }
+    var currentGroup by remember { mutableStateOf<MessageGroupBundle?>(null) }
     var selectedTone by remember { mutableStateOf("Romantic 💘") }
     val tones = listOf("Romantic 💘", "Sweet 🥰", "Funny 🤭", "Bold 🔥")
+
+    val suggestionsList = remember(currentGroup, selectedTone) {
+        val g = currentGroup
+        if (g == null) {
+            emptyList()
+        } else {
+            when (selectedTone) {
+                "Romantic 💘" -> g.romantic
+                "Sweet 🥰" -> g.sweet
+                "Funny 🤭" -> g.funny
+                "Bold 🔥" -> g.bold
+                else -> g.sweet
+            }
+        }
+    }
 
     // Idle Fade animation
     val idleAlpha by animateFloatAsState(
@@ -158,18 +173,14 @@ fun FloatingOverlayContent(
         animationSpec = spring(dampingRatio = Spring.DampingRatioMediumBouncy, stiffness = Spring.StiffnessMedium)
     )
 
-    // Helper function to fetch from AI
+    // Helper function to generate message group from local dataset
     fun refreshSuggestions() {
         if (incomingMessage.isBlank()) return
         isLoading = true
         scope.launch {
             try {
-                val results = AiApiClient.fetchSuggestions(
-                    history = emptyList(),
-                    latestMessage = incomingMessage.trim(),
-                    tone = selectedTone
-                )
-                suggestionsList = results
+                val group = AiApiClient.generateMessageGroup(incomingMessage.trim())
+                currentGroup = group
             } catch (e: Exception) {
                 Log.e("CoupleFriendly", "Error loading suggestions", e)
             } finally {
@@ -311,16 +322,29 @@ fun FloatingOverlayContent(
                         }
                     } else {
                         Column {
-                            if (suggestionsList.isNotEmpty()) {
-                                Text(
-                                    text = "Tap a reply to copy:",
-                                    fontSize = 11.sp,
-                                    color = Color(0xFFA594B8),
-                                    modifier = Modifier.padding(bottom = 6.dp)
-                                )
+                            if (currentGroup != null && suggestionsList.isNotEmpty()) {
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(bottom = 6.dp),
+                                    horizontalArrangement = Arrangement.SpaceBetween,
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Text(
+                                        text = "💬 Reply suggestions",
+                                        fontSize = 11.sp,
+                                        fontWeight = androidx.compose.ui.text.font.FontWeight.SemiBold,
+                                        color = Color(0xFFFF70A6)
+                                    )
+                                    Text(
+                                        text = "Tap to copy",
+                                        fontSize = 10.sp,
+                                        color = Color(0xFFA594B8)
+                                    )
+                                }
                             }
 
-                            suggestionsList.forEach { reply ->
+                            suggestionsList.forEachIndexed { index, reply ->
                                 Box(
                                     modifier = Modifier
                                         .fillMaxWidth()
@@ -328,15 +352,23 @@ fun FloatingOverlayContent(
                                         .clip(RoundedCornerShape(8.dp))
                                         .background(Color(0xFF2E1A47)) // Premium Purple tint
                                         .clickable {
-                                        onReplySelected(reply)
-                                    }
+                                            onReplySelected(reply)
+                                        }
                                         .padding(12.dp)
                                 ) {
-                                    Text(
-                                        text = reply,
-                                        color = Color.White,
-                                        fontSize = 13.sp
-                                    )
+                                    Row(verticalAlignment = Alignment.Top) {
+                                        Text(
+                                            text = "${index + 1}. ",
+                                            color = Color(0xFFFF70A6),
+                                            fontSize = 13.sp,
+                                            fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
+                                        )
+                                        Text(
+                                            text = reply,
+                                            color = Color.White,
+                                            fontSize = 13.sp
+                                        )
+                                    }
                                 }
                             }
                         }
@@ -350,7 +382,7 @@ fun FloatingOverlayContent(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        // Horizontal Toggle between tones
+                        // Horizontal Toggle between tones (Instantaneous)
                         Box(
                             modifier = Modifier
                                 .clip(RoundedCornerShape(6.dp))
@@ -358,7 +390,6 @@ fun FloatingOverlayContent(
                                 .clickable {
                                     val nextIndex = (tones.indexOf(selectedTone) + 1) % tones.size
                                     selectedTone = tones[nextIndex]
-                                    refreshSuggestions()
                                 }
                                 .padding(horizontal = 8.dp, vertical = 6.dp)
                         ) {

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "elongation_compression": {
+    "pattern": "([a-zA-Z])\\1{2,}",
+    "replacement": "\\1",
+    "description": "Compress 3+ repeated characters to 1"
+  },
+  "punctuation_rules": {
+    "repeated_punctuation": "([!?.,])\\1+",
+    "replacement": "\\1"
+  },
+  "phonetic_typo_map": {
+    "ekad": "ekkada",
+    "ekada": "ekkada",
+    "unav": "unnav",
+    "nanu": "nannu",
+    "ninu": "ninnu",
+    "naku": "naaku",
+    "istam": "ishtam",
+    "istammm": "ishtam",
+    "avthuna": "avuthunna",
+    "avthunaa": "avuthunna",
+    "avthunnav": "avuthunnav",
+    "avuthunav": "avuthunnav",
+    "matladatle": "matladatledu",
+    "matladotle": "matladatledu",
+    "cehpthe": "chepthe",
+    "ceyyaku": "cheyyaku",
+    "edipisthunaav": "edipisthunnav",
+    "edipisthunav": "edipisthunnav",
+    "chestunav": "chesthunnav",
+    "chesthunaav": "chesthunnav",
+    "chestunaav": "chesthunnav",
+    "chudatam": "chudadam",
+    "vintha": "vinta",
+    "plz": "please",
+    "tq": "thank you",
+    "gm": "good morning",
+    "gn": "good night",
+    "wt": "enti",
+    "y": "enduku"
+  },
+  "pronoun_corrections": {
+    "meeru": "nuvvu",
+    "ela unnaru": "ela unnav",
+    "meere": "nuvve"
+  },
+  "pronouns": [
+    "nannu",
+    "nenu",
+    "nuvvu",
+    "neeku",
+    "naaku",
+    "naatho",
+    "natho",
+    "neetho"
+  ],
+  "question_tokens": [
+    "enduku",
+    "enti",
+    "eppudu",
+    "ekkada",
+    "evaru",
+    "ela",
+    "avuna",
+    "nijama",
+    "kada",
+    "kaada"
+  ],
+  "conciliatory_tokens": [
+    "please",
+    "vadiley",
+    "sorry",
+    "forgive",
+    "peace"
+  ],
+  "crying_tokens": [
+    "edip",
+    "edav",
+    "yedus",
+    "edupu",
+    "crying"
+  ],
+  "feelings_tokens": [
+    "feelings",
+    "care cheyyatledu",
+    "pattinchukovatledu"
+  ],
+  "breakup_tokens": [
+    "inkeppudu",
+    "inka eppudu",
+    "block chestha",
+    "block chesta",
+    "breakup",
+    "vellipotha",
+    "naa valla kaadu",
+    "single ga untanu",
+    "dooram undu",
+    "dooranga undu"
+  ],
+  "frustration_tokens": [
+    "ardham kaada",
+    "ardham kaadha",
+    "ardham avvatleda",
+    "ardham kavatleda",
+    "ardham kavatledha",
+    "ardham cheskova",
+    "ardham chesukova",
+    "oka sari chepthe",
+    "okkasari chepthe",
+    "enni sarlu",
+    "chepthe vinava",
+    "cheppindi vinava",
+    "vinara",
+    "vinava",
+    "buddhi leda",
+    "mind leda",
+    "sense leda",
+    "visugu",
+    "visugosthondi",
+    "visiginchaku",
+    "chiraku",
+    "chimpestha",
+    "gola cheyyaku"
+  ]
+}

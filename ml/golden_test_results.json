@@ -1,0 +1,1702 @@
+[
+  {
+    "test_id": 1,
+    "raw_input": "hi",
+    "normalized": "hi",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.6231,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.7966,
+    "top1_scenario_incoming": "Hi",
+    "top5_scenario_incomings": [
+      "Hi",
+      "Hii",
+      "Chali ga undhi",
+      "Hello",
+      "Hey"
+    ]
+  },
+  {
+    "test_id": 2,
+    "raw_input": "hiiii bujji",
+    "normalized": "hi bujji",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.6027,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.7814,
+    "top1_scenario_incoming": "Hi",
+    "top5_scenario_incomings": [
+      "Hi",
+      "Naku emaina gift isthava bujji?",
+      "Hii",
+      "Hello",
+      "Hey"
+    ]
+  },
+  {
+    "test_id": 3,
+    "raw_input": "em chesthunnav",
+    "normalized": "em chesthunnav",
+    "intent": "DAILY_ACTIVITY",
+    "intent_confidence": 0.7639,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.9051,
+    "top1_scenario_incoming": "Em chesthunnav",
+    "top5_scenario_incomings": [
+      "Em chesthunnav",
+      "Ippudu em chesthunnav",
+      "Busy ga unnav",
+      "Chaduvuthunna",
+      "Eeroju chala busy ga unna"
+    ]
+  },
+  {
+    "test_id": 4,
+    "raw_input": "ekkada unnav",
+    "normalized": "ekkada unnav",
+    "intent": "DAILY_ACTIVITY",
+    "intent_confidence": 0.7323,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.8607,
+    "top1_scenario_incoming": "Ekkada unnav",
+    "top5_scenario_incomings": [
+      "Ekkada unnav",
+      "Busy ga unnav",
+      "Eeroju chala busy ga unna",
+      "Mana first date ekkada undali",
+      "Chaduvuthunna"
+    ]
+  },
+  {
+    "test_id": 5,
+    "raw_input": "tinnava",
+    "normalized": "tinnava",
+    "intent": "FOOD_CHECK",
+    "intent_confidence": 0.9437,
+    "emotion": "CARING",
+    "emotion_confidence": 0.9927,
+    "top1_scenario_incoming": "Tinnava leda",
+    "top5_scenario_incomings": [
+      "Tinnava leda",
+      "Em thinnav",
+      "Dinner chesava",
+      "Biryani tinadaniki veldam",
+      "Lunch chesava"
+    ]
+  },
+  {
+    "test_id": 6,
+    "raw_input": "office ki vellava",
+    "normalized": "office ki vellava",
+    "intent": "DAILY_ACTIVITY",
+    "intent_confidence": 0.9463,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.8667,
+    "top1_scenario_incoming": "Office lo busy",
+    "top5_scenario_incomings": [
+      "Office lo busy",
+      "Busy ga unnav",
+      "Salary ochindhi",
+      "Antha bore job",
+      "Project stress"
+    ]
+  },
+  {
+    "test_id": 7,
+    "raw_input": "ivala em plan",
+    "normalized": "ivala em plan",
+    "intent": "DAILY_ACTIVITY",
+    "intent_confidence": 0.9526,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.8994,
+    "top1_scenario_incoming": "Salary ochindhi",
+    "top5_scenario_incomings": [
+      "Salary ochindhi",
+      "Antha bore job",
+      "Busy ga unnav",
+      "Office lo busy",
+      "Project stress"
+    ]
+  },
+  {
+    "test_id": 8,
+    "raw_input": "inka levaleda",
+    "normalized": "inka levaleda",
+    "intent": "DAILY_ACTIVITY",
+    "intent_confidence": 0.8825,
+    "emotion": "PLAYFUL",
+    "emotion_confidence": 0.8576,
+    "top1_scenario_incoming": "Inka levaleda",
+    "top5_scenario_incomings": [
+      "Inka levaleda",
+      "Salary ochindhi",
+      "Busy ga unnav",
+      "Office lo busy",
+      "Antha bore job"
+    ]
+  },
+  {
+    "test_id": 9,
+    "raw_input": "busy ga unnav aa",
+    "normalized": "busy ga unnav aa",
+    "intent": "DAILY_ACTIVITY",
+    "intent_confidence": 0.9821,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.8862,
+    "top1_scenario_incoming": "Busy ga unnav",
+    "top5_scenario_incomings": [
+      "Busy ga unnav",
+      "Eeroju chala busy ga unna",
+      "Office lo busy",
+      "Nuvvu ippudu free aa",
+      "Late ga unnav"
+    ]
+  },
+  {
+    "test_id": 10,
+    "raw_input": "free ayyaka call cheyyi",
+    "normalized": "free ayyaka call cheyyi",
+    "intent": "CALL_REQUEST",
+    "intent_confidence": 0.9707,
+    "emotion": "CARING",
+    "emotion_confidence": 0.9958,
+    "top1_scenario_incoming": "Call cheyyi",
+    "top5_scenario_incomings": [
+      "Call cheyyi",
+      "Call chesav",
+      "Nuvvu free ayyaka ping cheyyi",
+      "Nuvvu first ga call chesthava",
+      "Naa call kosam wait chesthava"
+    ]
+  },
+  {
+    "test_id": 11,
+    "raw_input": "nannu miss avuthunnava",
+    "normalized": "nannu miss avuthunnava",
+    "intent": "MISSING",
+    "intent_confidence": 0.9712,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.9922,
+    "top1_scenario_incoming": "Nuvvu nannu miss avuthunnava",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu miss avuthunnava",
+      "Nuvvu nannu miss avuthunnav ani cheppava",
+      "Nuvvu nannu miss ayithe em chesthav",
+      "Nuvvu nannu miss ayithe message chesthava",
+      "Miss avthunna"
+    ]
+  },
+  {
+    "test_id": 12,
+    "raw_input": "nenu gurthosthunnana",
+    "normalized": "nenu gurthosthunnana",
+    "intent": "MISSING",
+    "intent_confidence": 0.597,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.7023,
+    "top1_scenario_incoming": "Nenu miss chestunaanu",
+    "top5_scenario_incomings": [
+      "Nenu miss chestunaanu",
+      "Nenu nidrapothe miss avuthava",
+      "Nuvvu nenu lekunda bored avuthava",
+      "Nuvvu gurthochav",
+      "Nannu gurthucheskunnava"
+    ]
+  },
+  {
+    "test_id": 13,
+    "raw_input": "nuvvu ante naaku chala ishtam",
+    "normalized": "nuvvu ante naaku chala ishtam",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.7712,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.684,
+    "top1_scenario_incoming": "Nuvvu naaku chala important",
+    "top5_scenario_incomings": [
+      "Nuvvu naaku chala important",
+      "Nuvvu nacchav naaku",
+      "Nuvvu nannu entha ishtapaduthav",
+      "Nuvvu nannu chala special ga treat chesthunnav bujji",
+      "Nuvvu nacchav"
+    ]
+  },
+  {
+    "test_id": 14,
+    "raw_input": "nuvvu lekunda bore kodthundi",
+    "normalized": "nuvvu lekunda bore kodthundi",
+    "intent": "MISSING",
+    "intent_confidence": 0.9318,
+    "emotion": "SAD",
+    "emotion_confidence": 0.9821,
+    "top1_scenario_incoming": "Nuvvu nenu lekunda bored avuthava",
+    "top5_scenario_incomings": [
+      "Nuvvu nenu lekunda bored avuthava",
+      "Nuvvu gurthochav",
+      "Nuvvu na message kosam wait chesthava",
+      "Nuvvu nannu miss avuthunnava",
+      "Nuvvu na reply kosam wait chesthava"
+    ]
+  },
+  {
+    "test_id": 15,
+    "raw_input": "nuvvu na life lo special",
+    "normalized": "nuvvu na life lo special",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.9601,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9823,
+    "top1_scenario_incoming": "Life lo em kavali neeku",
+    "top5_scenario_incomings": [
+      "Life lo em kavali neeku",
+      "Nuvvu na life lo important aa",
+      "Nuvvu nannu nammutunnava",
+      "Nuvvu nannu trust chesthava",
+      "Nuvvu naa life"
+    ]
+  },
+  {
+    "test_id": 16,
+    "raw_input": "na gurinchi em anukuntunnav",
+    "normalized": "na gurinchi em anukuntunnav",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.9546,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9699,
+    "top1_scenario_incoming": "Valentine's day ki em plan",
+    "top5_scenario_incomings": [
+      "Valentine's day ki em plan",
+      "Life lo em kavali neeku",
+      "Na gurinchi emi alochistunnav?",
+      "5 years lo ekkaduntav",
+      "Matching tattoo vesukondama"
+    ]
+  },
+  {
+    "test_id": 17,
+    "raw_input": "nijanga nannu love chesthunnava",
+    "normalized": "nijanga nannu love chesthunnava",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.9096,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9224,
+    "top1_scenario_incoming": "I love you",
+    "top5_scenario_incomings": [
+      "I love you",
+      "Nuvvu nannu chala special ga treat chesthunnav bujji",
+      "Nee meeda love undhi",
+      "Nuvvu nannu entha ishtapaduthav",
+      "Nuvvu nannu enduku like chesthav"
+    ]
+  },
+  {
+    "test_id": 18,
+    "raw_input": "nenu neeku entha important",
+    "normalized": "nenu neeku entha important",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.9594,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9631,
+    "top1_scenario_incoming": "Life lo em kavali neeku",
+    "top5_scenario_incomings": [
+      "Life lo em kavali neeku",
+      "Relationship lo trust chala important kadaa",
+      "Nuvvu nannu nammutunnava",
+      "Nuvvu nannu trust chesthava",
+      "Valentine's day ki em plan"
+    ]
+  },
+  {
+    "test_id": 19,
+    "raw_input": "natho eppudu untava",
+    "normalized": "natho eppudu untava",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.9546,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9158,
+    "top1_scenario_incoming": "Relationship lo trust chala important kadaa",
+    "top5_scenario_incomings": [
+      "Relationship lo trust chala important kadaa",
+      "Nee dream enti",
+      "5 years lo ekkaduntav",
+      "Life lo em kavali neeku",
+      "Nuvvu nannu nammutunnava"
+    ]
+  },
+  {
+    "test_id": 20,
+    "raw_input": "nee smile chusthe naa heart melt avuthundi",
+    "normalized": "nee smile chusthe naa heart melt avuthundi",
+    "intent": "COMPLIMENT_LOOKS",
+    "intent_confidence": 0.5354,
+    "emotion": "HAPPY",
+    "emotion_confidence": 0.749,
+    "top1_scenario_incoming": "Nee smile chuste happy",
+    "top5_scenario_incomings": [
+      "Nee smile chuste happy",
+      "Naa smile gurinchi cheppu",
+      "Naa smile ki rating entha",
+      "Nee perfume baagundhi",
+      "Naa eyes nachaya"
+    ]
+  },
+  {
+    "test_id": 21,
+    "raw_input": "eh dumma",
+    "normalized": "eh dumma",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.2213,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.5378,
+    "top1_scenario_incoming": "Hmm",
+    "top5_scenario_incomings": [
+      "Hmm",
+      "Varsham paduthondi",
+      "Hi",
+      "Hello",
+      "Hey"
+    ]
+  },
+  {
+    "test_id": 22,
+    "raw_input": "nuvvu nacchav ante nacchav",
+    "normalized": "nuvvu nacchav ante nacchav",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.9091,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9107,
+    "top1_scenario_incoming": "Nuvvu nacchav",
+    "top5_scenario_incomings": [
+      "Nuvvu nacchav",
+      "Nuvvu nacchav naaku",
+      "Nuvvu naatho unte chaalu",
+      "Nuvvu naa life",
+      "Nuvvu naaku chala important"
+    ]
+  },
+  {
+    "test_id": 23,
+    "raw_input": "pakka drama queen eh nuvvu",
+    "normalized": "pakka drama queen eh nuvvu",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.1856,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.4207,
+    "top1_scenario_incoming": "Nuvvu nacchav",
+    "top5_scenario_incomings": [
+      "Nuvvu nacchav",
+      "Nuvvu different",
+      "Nuvvu naa life",
+      "Nuvvu nacchav naaku",
+      "Nuvvu naaku chala important"
+    ]
+  },
+  {
+    "test_id": 24,
+    "raw_input": "abbaa intha cute emiti nuvvu",
+    "normalized": "abbaa intha cute emiti nuvvu",
+    "intent": "COMPLIMENT_LOOKS",
+    "intent_confidence": 0.285,
+    "emotion": "HAPPY",
+    "emotion_confidence": 0.3747,
+    "top1_scenario_incoming": "Nuvvu chala cute ga unnav",
+    "top5_scenario_incomings": [
+      "Nuvvu chala cute ga unnav",
+      "Nuvvu cute ga unnav ippudu",
+      "Cute ga unnav",
+      "Enduku antha cute ga untav",
+      "Nuvvu smart"
+    ]
+  },
+  {
+    "test_id": 25,
+    "raw_input": "moham chupiyyi na bangaram",
+    "normalized": "moham chupiyyi na bangaram",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.205,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.4165,
+    "top1_scenario_incoming": "Na message chadivava",
+    "top5_scenario_incomings": [
+      "Na message chadivava",
+      "Nuvvu na reel chusava",
+      "Nuvvu message chesthe na mood change aipothundi",
+      "Nuvvu na pakkana unte peaceful ga untundi",
+      "Varsham lo kalisi naduddama"
+    ]
+  },
+  {
+    "test_id": 26,
+    "raw_input": "photo pampav enti",
+    "normalized": "photo pampav enti",
+    "intent": "FLIRT_COMPLIMENT",
+    "intent_confidence": 0.6721,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.7906,
+    "top1_scenario_incoming": "Naa photo pampaanu chusava bujji?",
+    "top5_scenario_incomings": [
+      "Naa photo pampaanu chusava bujji?",
+      "Na photo ela undi",
+      "Naa photo ela undhi",
+      "Naa new photo ela undi",
+      "Nee photo wallpaper petkunna"
+    ]
+  },
+  {
+    "test_id": 27,
+    "raw_input": "flirt chesthunnava natho",
+    "normalized": "flirt chesthunnava natho",
+    "intent": "TEASING",
+    "intent_confidence": 0.263,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.4489,
+    "top1_scenario_incoming": "Nuvvu na tho flirt chesthunnava",
+    "top5_scenario_incomings": [
+      "Nuvvu na tho flirt chesthunnava",
+      "Nuvvu pedda flirt vi",
+      "Naa status lo nannu tease chesthunnava",
+      "Nuvvu game lo cheat chesthava",
+      "Nuvvu nannu tease chesthe"
+    ]
+  },
+  {
+    "test_id": 28,
+    "raw_input": "nee voice vinali anipisthundi",
+    "normalized": "nee voice vinali anipisthundi",
+    "intent": "CALL_REQUEST",
+    "intent_confidence": 0.8731,
+    "emotion": "EXCITED",
+    "emotion_confidence": 0.8078,
+    "top1_scenario_incoming": "Nee voice vinali",
+    "top5_scenario_incomings": [
+      "Nee voice vinali",
+      "Nee voice vinagalana",
+      "Nuvvu voice note pampithe",
+      "Nee song vinali",
+      "Phone charge aipothundhi"
+    ]
+  },
+  {
+    "test_id": 29,
+    "raw_input": "em anukuntunnav cheppu",
+    "normalized": "em anukuntunnav cheppu",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.635,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.8004,
+    "top1_scenario_incoming": "Valentine's day ki em plan",
+    "top5_scenario_incomings": [
+      "Valentine's day ki em plan",
+      "Life lo em kavali neeku",
+      "5 years lo ekkaduntav",
+      "Nuvvu nannu nammutunnava",
+      "Manamu future lo"
+    ]
+  },
+  {
+    "test_id": 30,
+    "raw_input": "vadu ninnu chusi navvadu anta kadha",
+    "normalized": "vadu ninnu chusi navvadu anta kadha",
+    "intent": "FLIRT_COMPLIMENT",
+    "intent_confidence": 0.3011,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.3472,
+    "top1_scenario_incoming": "Nuvvu nannu chusi blush avuthava",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu chusi blush avuthava",
+      "Nenu ninnu impress chesana",
+      "Na message chusi smile vachinda",
+      "Nuvvu na photo chusi em anukunnav",
+      "Nuvvu nannu chusthe em anipisthundi"
+    ]
+  },
+  {
+    "test_id": 31,
+    "raw_input": "nuvvu nannu hurt chesav",
+    "normalized": "nuvvu nannu hurt chesav",
+    "intent": "EMOTIONAL_HURT",
+    "intent_confidence": 0.9337,
+    "emotion": "HURT",
+    "emotion_confidence": 0.9521,
+    "top1_scenario_incoming": "Nenu ninnu hurt chesana",
+    "top5_scenario_incomings": [
+      "Nenu ninnu hurt chesana",
+      "Nuvvu levu ga, baadhaga vundi",
+      "Nenu crying mood lo unna",
+      "Yedusthunna raa",
+      "Nuvvu nannu ignore chesthunnava"
+    ]
+  },
+  {
+    "test_id": 32,
+    "raw_input": "edusthunna nee valla",
+    "normalized": "edusthunna nee valla",
+    "intent": "EMOTIONAL_HURT",
+    "intent_confidence": 0.9468,
+    "emotion": "HURT",
+    "emotion_confidence": 0.9555,
+    "top1_scenario_incoming": "Edusthunna",
+    "top5_scenario_incomings": [
+      "Edusthunna",
+      "Yedusthunna raa",
+      "Nuvvu levu ga, baadhaga vundi",
+      "Nenu crying mood lo unna",
+      "Nenu ninnu hurt chesana"
+    ]
+  },
+  {
+    "test_id": 33,
+    "raw_input": "matladaku natho",
+    "normalized": "matladaku natho",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.9436,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.9702,
+    "top1_scenario_incoming": "Vaddhu matladaku",
+    "top5_scenario_incomings": [
+      "Vaddhu matladaku",
+      "Nuvvu natho matladatam ledhu endhuku",
+      "Nee tho matladanu",
+      "Matladavu enduku",
+      "Ekkadaki vellavo naku cheppaledhu,chala kopam ga undhi"
+    ]
+  },
+  {
+    "test_id": 34,
+    "raw_input": "naa feelings ki value ledu neeku",
+    "normalized": "naa feelings ki value ledu neeku",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.314,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.407,
+    "top1_scenario_incoming": "Feelings cheppu",
+    "top5_scenario_incomings": [
+      "Feelings cheppu",
+      "Naa feelings ni ardham cheskuntava",
+      "Nenu special aa neeku",
+      "Nuvvu naa life",
+      "Naa priority nuvve"
+    ]
+  },
+  {
+    "test_id": 35,
+    "raw_input": "enduku ila chesthav",
+    "normalized": "enduku ila chesthav",
+    "intent": "CONFLICT_FRUSTRATION",
+    "intent_confidence": 0.8266,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.8368,
+    "top1_scenario_incoming": "Enni sarlu msg chusthunna",
+    "top5_scenario_incomings": [
+      "Enni sarlu msg chusthunna",
+      "Neeku oka sari chepthe ardham kaada",
+      "Matladavu enduku",
+      "Reply enduku ivvaledu",
+      "Nuvvu nannu enduku like chesthav"
+    ]
+  },
+  {
+    "test_id": 36,
+    "raw_input": "nuvvu marchipoyav nannu",
+    "normalized": "nuvvu marchipoyav nannu",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.888,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.9619,
+    "top1_scenario_incoming": "Nuvvu marchipoyav",
+    "top5_scenario_incomings": [
+      "Nuvvu marchipoyav",
+      "Nuvvu busy lo marchipoyav",
+      "Evadivi nuvvu naaku",
+      "Nuvvu first message chesthava",
+      "Nuvvu kopam lo em chesthav"
+    ]
+  },
+  {
+    "test_id": 37,
+    "raw_input": "oka sari kuda call cheyyaledu",
+    "normalized": "oka sari kuda call cheyyaledu",
+    "intent": "CALL_REQUEST",
+    "intent_confidence": 0.6894,
+    "emotion": "EXCITED",
+    "emotion_confidence": 0.558,
+    "top1_scenario_incoming": "Call cheyyi",
+    "top5_scenario_incomings": [
+      "Call cheyyi",
+      "Call chesav",
+      "Naa call enduku lift cheyyaledu",
+      "Nuvvu first ga call chesthava",
+      "Naa call kosam wait chesthava"
+    ]
+  },
+  {
+    "test_id": 38,
+    "raw_input": "ignoring chesthunnav nannu",
+    "normalized": "ignoring chesthunnav nannu",
+    "intent": "TEASING",
+    "intent_confidence": 0.4471,
+    "emotion": "PLAYFUL",
+    "emotion_confidence": 0.6471,
+    "top1_scenario_incoming": "Nannu enduku tease chesthunnav",
+    "top5_scenario_incomings": [
+      "Nannu enduku tease chesthunnav",
+      "Naa status lo nannu tease chesthunnava",
+      "Nuvvu nannu tease chesthe",
+      "Nannu tease cheyyaku",
+      "Nuvvu nannu oka cute name tho pilusthava"
+    ]
+  },
+  {
+    "test_id": 39,
+    "raw_input": "nee meedha trust ledu inka",
+    "normalized": "nee meedha trust ledu inka",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.7544,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.3858,
+    "top1_scenario_incoming": "Nee meeda trust undhi",
+    "top5_scenario_incomings": [
+      "Nee meeda trust undhi",
+      "Nuvvu nannu trust chesthava",
+      "Relationship lo trust chala important kadaa",
+      "Nee dream enti",
+      "Manamu future lo"
+    ]
+  },
+  {
+    "test_id": 40,
+    "raw_input": "breakup cheskundaam",
+    "normalized": "breakup cheskundaam",
+    "intent": "BREAKUP_THREATS",
+    "intent_confidence": 0.9545,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.9414,
+    "top1_scenario_incoming": "Breakup",
+    "top5_scenario_incomings": [
+      "Breakup",
+      "Block chestha",
+      "Vellipotha",
+      "Nenu single ga untanu",
+      "Naa feelings ni ardham cheskuntava"
+    ]
+  },
+  {
+    "test_id": 41,
+    "raw_input": "nuvvu lekunda baaga lonely ga feel avthunna",
+    "normalized": "nuvvu lekunda baaga lonely ga feel avthunna",
+    "intent": "MISSING",
+    "intent_confidence": 0.8118,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.634,
+    "top1_scenario_incoming": "Miss avthunna",
+    "top5_scenario_incomings": [
+      "Miss avthunna",
+      "Nuvvu nenu lekunda bored avuthava",
+      "Feeling lonely",
+      "Ninnu miss avthunna",
+      "Nuvvu gurthochav"
+    ]
+  },
+  {
+    "test_id": 42,
+    "raw_input": "nee meeda depend avthunna inka",
+    "normalized": "nee meeda depend avthunna inka",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.2998,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.5823,
+    "top1_scenario_incoming": "Nee meeda joke vaddhu",
+    "top5_scenario_incomings": [
+      "Nee meeda joke vaddhu",
+      "Naa meeda kopam inka poleda",
+      "Naa meeda kopamga unnav",
+      "Naa meeda kopam undha",
+      "Nee tho matladanu"
+    ]
+  },
+  {
+    "test_id": 43,
+    "raw_input": "nuvvu naaku strength",
+    "normalized": "nuvvu naaku strength",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.3755,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.388,
+    "top1_scenario_incoming": "Nuvvu naaku chala important",
+    "top5_scenario_incomings": [
+      "Nuvvu naaku chala important",
+      "Nuvvu nacchav naaku",
+      "Naaku surprise ivvu",
+      "Nuvvu nacchav",
+      "Nuvvu naa life"
+    ]
+  },
+  {
+    "test_id": 44,
+    "raw_input": "life lo nee tho ne happy",
+    "normalized": "life lo nee tho ne happy",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.4786,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.5964,
+    "top1_scenario_incoming": "Life lo em kavali neeku",
+    "top5_scenario_incomings": [
+      "Life lo em kavali neeku",
+      "Manamu future lo",
+      "Nee meeda trust undhi",
+      "5 years lo ekkaduntav",
+      "Nee dream enti"
+    ]
+  },
+  {
+    "test_id": 45,
+    "raw_input": "entha dooram aina nee dhyasaloney untanu",
+    "normalized": "entha dooram aina nee dhyasaloney untanu",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.182,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.4023,
+    "top1_scenario_incoming": "Nee dream enti",
+    "top5_scenario_incomings": [
+      "Nee dream enti",
+      "Nee meeda trust undhi",
+      "Valentine's day ki em plan",
+      "5 years lo ekkaduntav",
+      "Manamu future lo"
+    ]
+  },
+  {
+    "test_id": 46,
+    "raw_input": "ninnu vadilesi vellalenu",
+    "normalized": "ninnu vadilesi vellalenu",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.4438,
+    "emotion": "HURT",
+    "emotion_confidence": 0.7297,
+    "top1_scenario_incoming": "Valentine's day ki em plan",
+    "top5_scenario_incomings": [
+      "Valentine's day ki em plan",
+      "Matching tattoo vesukondama",
+      "Anniversary plans",
+      "Manamu future lo",
+      "5 years lo ekkaduntav"
+    ]
+  },
+  {
+    "test_id": 47,
+    "raw_input": "nuvvu na weakness",
+    "normalized": "nuvvu na weakness",
+    "intent": "MISSING",
+    "intent_confidence": 0.3809,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.4464,
+    "top1_scenario_incoming": "Nuvvu na message kosam wait chesthava",
+    "top5_scenario_incomings": [
+      "Nuvvu na message kosam wait chesthava",
+      "Nuvvu na absence notice chesthava",
+      "Nuvvu na reply kosam wait chesthava",
+      "Nuvvu gurthochav",
+      "Nuvvu nannu miss avuthunnava"
+    ]
+  },
+  {
+    "test_id": 48,
+    "raw_input": "nuvvu lekunda incomplete feel avthunna",
+    "normalized": "nuvvu lekunda incomplete feel avthunna",
+    "intent": "MISSING",
+    "intent_confidence": 0.7764,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.4361,
+    "top1_scenario_incoming": "Miss avthunna",
+    "top5_scenario_incomings": [
+      "Miss avthunna",
+      "Nuvvu nenu lekunda bored avuthava",
+      "Ninnu miss avthunna",
+      "Nuvvu gurthochav",
+      "Nuvvu nannu miss avuthunnava"
+    ]
+  },
+  {
+    "test_id": 49,
+    "raw_input": "naa heart full ga nee daggare undi",
+    "normalized": "naa heart full ga nee daggare undi",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.4845,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.3388,
+    "top1_scenario_incoming": "Eeroju full dull ga undhi",
+    "top5_scenario_incomings": [
+      "Eeroju full dull ga undhi",
+      "Naaku headache ga undi",
+      "Naaku tension ga undi",
+      "Headache ga undhi",
+      "Tired ga undhi"
+    ]
+  },
+  {
+    "test_id": 50,
+    "raw_input": "nuvvu naaku dheevena",
+    "normalized": "nuvvu naaku dheevena",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.3655,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.4582,
+    "top1_scenario_incoming": "Nuvvu naaku dhairyam chepthava",
+    "top5_scenario_incomings": [
+      "Nuvvu naaku dhairyam chepthava",
+      "Nuvvu naaku care chupisthe cute ga anipisthundi",
+      "Naaku tension ga undi",
+      "Naaku tension ga undhi",
+      "Naaku headache ga undi"
+    ]
+  },
+  {
+    "test_id": 51,
+    "raw_input": "ok",
+    "normalized": "ok",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.6052,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.7302,
+    "top1_scenario_incoming": "Ok",
+    "top5_scenario_incomings": [
+      "Ok",
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good evening"
+    ]
+  },
+  {
+    "test_id": 52,
+    "raw_input": "hmm",
+    "normalized": "hmm",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.8458,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.9043,
+    "top1_scenario_incoming": "Hmm",
+    "top5_scenario_incomings": [
+      "Hmm",
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good evening"
+    ]
+  },
+  {
+    "test_id": 53,
+    "raw_input": "hahaha",
+    "normalized": "hahaha",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.4607,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.7263,
+    "top1_scenario_incoming": "Haha",
+    "top5_scenario_incomings": [
+      "Haha",
+      "Chali ga undhi",
+      "Hi",
+      "Hello",
+      "Hey"
+    ]
+  },
+  {
+    "test_id": 54,
+    "raw_input": "🥰🥰🥰",
+    "normalized": "🥰🥰🥰",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.2376,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.5369,
+    "top1_scenario_incoming": "Hi",
+    "top5_scenario_incomings": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good evening",
+      "Hii"
+    ]
+  },
+  {
+    "test_id": 55,
+    "raw_input": "...",
+    "normalized": ".",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.2376,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.5369,
+    "top1_scenario_incoming": "Hi",
+    "top5_scenario_incomings": [
+      "Hi",
+      "Hello",
+      "Hey",
+      "Good evening",
+      "Hii"
+    ]
+  },
+  {
+    "test_id": 56,
+    "raw_input": "nenu bayataku velthunna",
+    "normalized": "nenu bayataku velthunna",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.5943,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.8102,
+    "top1_scenario_incoming": "Nenu gym ki velthunna",
+    "top5_scenario_incomings": [
+      "Nenu gym ki velthunna",
+      "Interview ki velthunna",
+      "Nenu chala tired ga unna",
+      "Nenu e roju chala tired ga unna",
+      "Nenu fail ayithe"
+    ]
+  },
+  {
+    "test_id": 57,
+    "raw_input": "night bujji",
+    "normalized": "night bujji",
+    "intent": "GREETING_NIGHT",
+    "intent_confidence": 0.8265,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.922,
+    "top1_scenario_incoming": "Good night",
+    "top5_scenario_incomings": [
+      "Good night",
+      "Nuvvu night good night cheppithe",
+      "Late night cravings",
+      "Night walk ki vasthava",
+      "Late night call cheddama"
+    ]
+  },
+  {
+    "test_id": 58,
+    "raw_input": "good morning bangaram",
+    "normalized": "good morning bangaram",
+    "intent": "GREETING_MORNING",
+    "intent_confidence": 0.9922,
+    "emotion": "HAPPY",
+    "emotion_confidence": 0.9919,
+    "top1_scenario_incoming": "Good morning",
+    "top5_scenario_incomings": [
+      "Good morning",
+      "Good morning bujji!",
+      "Naa good morning message late ayithe",
+      "Naa good morning message kosam wait chesthava",
+      "Nuvvu naaku good morning cheppakapothe"
+    ]
+  },
+  {
+    "test_id": 59,
+    "raw_input": "call cheyyava",
+    "normalized": "call cheyyava",
+    "intent": "CALL_REQUEST",
+    "intent_confidence": 0.8795,
+    "emotion": "EXCITED",
+    "emotion_confidence": 0.8981,
+    "top1_scenario_incoming": "Call cheyyi",
+    "top5_scenario_incomings": [
+      "Call cheyyi",
+      "Call chesav",
+      "Nuvvu first ga call chesthava",
+      "Call lo em matladali",
+      "Naa call kosam wait chesthava"
+    ]
+  },
+  {
+    "test_id": 60,
+    "raw_input": "msg late ga chusanu sorry",
+    "normalized": "msg late ga chusanu sorry",
+    "intent": "APOLOGY_SEEKING",
+    "intent_confidence": 0.3722,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.4024,
+    "top1_scenario_incoming": "Sorry",
+    "top5_scenario_incomings": [
+      "Sorry",
+      "Fight ayyaka first evaru sorry cheppali",
+      "Late ga unnav",
+      "Nannu forgive cheyyadaniki chance unda",
+      "Nuvvu late ga tinte"
+    ]
+  },
+  {
+    "test_id": 61,
+    "raw_input": "evaru aa ammayi",
+    "normalized": "evaru aa ammayi",
+    "intent": "JEALOUSY",
+    "intent_confidence": 0.9676,
+    "emotion": "JEALOUS",
+    "emotion_confidence": 0.9866,
+    "top1_scenario_incoming": "Aa person evaru",
+    "top5_scenario_incomings": [
+      "Aa person evaru",
+      "Nee friend evaru adi",
+      "Jealous avuthunna",
+      "Evaritho matladuthunnav",
+      "Evaritho chat chesthunnav"
+    ]
+  },
+  {
+    "test_id": 62,
+    "raw_input": "thaanu neetho enduku matladuthundhi",
+    "normalized": "thaanu neetho enduku matladuthundhi",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.223,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.6353,
+    "top1_scenario_incoming": "Matladavu enduku",
+    "top5_scenario_incomings": [
+      "Matladavu enduku",
+      "Nee tho matladanu",
+      "Vaddhu matladaku",
+      "Nuvvu natho matladatam ledhu endhuku",
+      "Ekkadaki vellavo naku cheppaledhu,chala kopam ga undhi"
+    ]
+  },
+  {
+    "test_id": 63,
+    "raw_input": "nuvvu verevallaki navvuthav kani naaku kaadhu",
+    "normalized": "nuvvu verevallaki navvuthav kani naaku kaadhu",
+    "intent": "JOKING",
+    "intent_confidence": 0.1277,
+    "emotion": "JEALOUS",
+    "emotion_confidence": 0.2721,
+    "top1_scenario_incoming": "Nuvvu nannu chusi enduku navvuthav",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu chusi enduku navvuthav",
+      "Nuvvu nannu navvinchagalava",
+      "Nuvvu jokes baaga chepthava",
+      "Nannu navvinchagalava",
+      "Evadivi nuvvu naaku"
+    ]
+  },
+  {
+    "test_id": 64,
+    "raw_input": "nuvvu andari tho ila untava",
+    "normalized": "nuvvu andari tho ila untava",
+    "intent": "JEALOUSY",
+    "intent_confidence": 0.2877,
+    "emotion": "JEALOUS",
+    "emotion_confidence": 0.4157,
+    "top1_scenario_incoming": "Nuvvu jealous avuthava",
+    "top5_scenario_incomings": [
+      "Nuvvu jealous avuthava",
+      "Naa meeda possessive ga untava",
+      "Nuvvu nannu morning lo text chesthava",
+      "Nuvvu jealous ayithe em chesthav",
+      "Nuvvu birthday lo em expect chesthav"
+    ]
+  },
+  {
+    "test_id": 65,
+    "raw_input": "nee phone lo aa contact evaru",
+    "normalized": "nee phone lo aa contact evaru",
+    "intent": "JEALOUSY",
+    "intent_confidence": 0.5343,
+    "emotion": "JEALOUS",
+    "emotion_confidence": 0.7702,
+    "top1_scenario_incoming": "Aa person evaru",
+    "top5_scenario_incomings": [
+      "Aa person evaru",
+      "Phone lo evarni daachipettav",
+      "Nee friend evaru adi",
+      "Nee ex gurinchi cheppavu kadha",
+      "Jealous avuthunna"
+    ]
+  },
+  {
+    "test_id": 66,
+    "raw_input": "thaanu ninnu chusi navvindi",
+    "normalized": "thaanu ninnu chusi navvindi",
+    "intent": "FLIRT_COMPLIMENT",
+    "intent_confidence": 0.3885,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.4137,
+    "top1_scenario_incoming": "Nuvvu nannu chusi blush avuthava",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu chusi blush avuthava",
+      "Nenu ninnu impress chesana",
+      "Na message chusi smile vachinda",
+      "Nuvvu na photo chusi em anukunnav",
+      "Nuvvu nannu chusthe em anipisthundi"
+    ]
+  },
+  {
+    "test_id": 67,
+    "raw_input": "vere ammayilatho matladaku",
+    "normalized": "vere ammayilatho matladaku",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.5822,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.6591,
+    "top1_scenario_incoming": "Vaddhu matladaku",
+    "top5_scenario_incomings": [
+      "Vaddhu matladaku",
+      "Nee tho matladanu",
+      "Nuvvu natho matladatam ledhu endhuku",
+      "Matladavu enduku",
+      "Ekkadaki vellavo naku cheppaledhu,chala kopam ga undhi"
+    ]
+  },
+  {
+    "test_id": 68,
+    "raw_input": "nenu jealous feel avthunna",
+    "normalized": "nenu jealous feel avthunna",
+    "intent": "JEALOUSY",
+    "intent_confidence": 0.8537,
+    "emotion": "JEALOUS",
+    "emotion_confidence": 0.9303,
+    "top1_scenario_incoming": "Nenu jealous avthunna",
+    "top5_scenario_incomings": [
+      "Nenu jealous avthunna",
+      "Jealous avuthunna",
+      "Nenu vere vallatho matladithe jealous avuthava",
+      "Nuvvu jealous avuthava",
+      "Nuvvu jealous ayithe em chesthav"
+    ]
+  },
+  {
+    "test_id": 69,
+    "raw_input": "nuvvu naaku maathrame kaadhu anipistundi",
+    "normalized": "nuvvu naaku maathrame kaadhu anipistundi",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.1985,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.3653,
+    "top1_scenario_incoming": "Nuvvu naaku dhairyam chepthava",
+    "top5_scenario_incomings": [
+      "Nuvvu naaku dhairyam chepthava",
+      "Nuvvu naaku care chupisthe cute ga anipisthundi",
+      "Nuvvu naaku chala important",
+      "Naaku headache ga undi",
+      "Naaku tension ga undi"
+    ]
+  },
+  {
+    "test_id": 70,
+    "raw_input": "neetho matlade rights naake undi",
+    "normalized": "neetho matlade rights naake undi",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.218,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.3313,
+    "top1_scenario_incoming": "Nee tho matladanu",
+    "top5_scenario_incomings": [
+      "Nee tho matladanu",
+      "Nuvvu natho matladatam ledhu endhuku",
+      "Vaddhu matladaku",
+      "Naaku tension ga undi",
+      "Naaku headache ga undi"
+    ]
+  },
+  {
+    "test_id": 71,
+    "raw_input": "manamu future lo kuda ilane untama",
+    "normalized": "manamu future lo kuda ilane untama",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.9176,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.892,
+    "top1_scenario_incoming": "Manamu future lo",
+    "top5_scenario_incomings": [
+      "Manamu future lo",
+      "5 years lo ekkaduntav",
+      "Life lo em kavali neeku",
+      "Relationship lo trust chala important kadaa",
+      "Nee meeda trust undhi"
+    ]
+  },
+  {
+    "test_id": 72,
+    "raw_input": "nee parents ki cheppava manam gurinchi",
+    "normalized": "nee parents ki cheppava manam gurinchi",
+    "intent": "COMPLIMENT_LOOKS",
+    "intent_confidence": 0.1035,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.3144,
+    "top1_scenario_incoming": "Naa smile gurinchi cheppu",
+    "top5_scenario_incomings": [
+      "Naa smile gurinchi cheppu",
+      "Naa eyes gurinchi cheppu",
+      "Nee perfume baagundhi",
+      "Nee eyes chala bagunnayi",
+      "Nee voice chala bagundhi"
+    ]
+  },
+  {
+    "test_id": 73,
+    "raw_input": "eppudu cheskundaam marriage",
+    "normalized": "eppudu cheskundaam marriage",
+    "intent": "MOVIE_TRIP",
+    "intent_confidence": 0.2521,
+    "emotion": "EXCITED",
+    "emotion_confidence": 0.2531,
+    "top1_scenario_incoming": "Eppudu vasthav",
+    "top5_scenario_incomings": [
+      "Eppudu vasthav",
+      "Nee free time eppudu",
+      "Outing ki veldaam",
+      "Weekend em chesthav",
+      "Dance cheddama"
+    ]
+  },
+  {
+    "test_id": 74,
+    "raw_input": "nuvvu serious aa natho",
+    "normalized": "nuvvu serious aa natho",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.1257,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.5371,
+    "top1_scenario_incoming": "Nenu serious ga matladthunna",
+    "top5_scenario_incomings": [
+      "Nenu serious ga matladthunna",
+      "Nuvvu naatho matladatledu",
+      "Nuvvu naatho relationship lo serious ga untava",
+      "Nuvvu songs vintava",
+      "Nuvvu commitment ni serious ga teesukuntava"
+    ]
+  },
+  {
+    "test_id": 75,
+    "raw_input": "manam permanent kadha",
+    "normalized": "manam permanent kadha",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.2485,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.307,
+    "top1_scenario_incoming": "Manam fight ayyam kada",
+    "top5_scenario_incomings": [
+      "Manam fight ayyam kada",
+      "Manam disagreement vachina okay na",
+      "Naa meeda kopam undha",
+      "Naa meeda kopam inka poleda",
+      "Naa feelings ni ardham cheskuntava"
+    ]
+  },
+  {
+    "test_id": 76,
+    "raw_input": "nuvvu inko relationship lo unte",
+    "normalized": "nuvvu inko relationship lo unte",
+    "intent": "PROPOSAL",
+    "intent_confidence": 0.5686,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.7682,
+    "top1_scenario_incoming": "Nuvvu naatho relationship lo serious ga untava",
+    "top5_scenario_incomings": [
+      "Nuvvu naatho relationship lo serious ga untava",
+      "Nuvvu relationship lo space istava",
+      "Nuvvu nannu choose cheskuntava",
+      "Nuvvu commitment ni serious ga teesukuntava",
+      "Nuvvu nannu date ki official ga aduguthava"
+    ]
+  },
+  {
+    "test_id": 77,
+    "raw_input": "naa daggara eppudu untav kadha",
+    "normalized": "naa daggara eppudu untav kadha",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.1504,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.3246,
+    "top1_scenario_incoming": "Relationship lo trust chala important kadaa",
+    "top5_scenario_incomings": [
+      "Relationship lo trust chala important kadaa",
+      "Nee dream enti",
+      "5 years lo ekkaduntav",
+      "Valentine's day ki em plan",
+      "Nee meeda trust undhi"
+    ]
+  },
+  {
+    "test_id": 78,
+    "raw_input": "nuvvu nannu leave cheyyavu kadha",
+    "normalized": "nuvvu nannu leave cheyyavu kadha",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.193,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.5398,
+    "top1_scenario_incoming": "Nuvvu nannu entha ishtapaduthav",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu entha ishtapaduthav",
+      "Nuvvu nannu enduku ishtapaduthunnav",
+      "Nuvvu nannu enduku like chesthav",
+      "Nuvvu nannu daily choodalani anukuntava",
+      "Nuvvu nannu chala special ga treat chesthunnav bujji"
+    ]
+  },
+  {
+    "test_id": 79,
+    "raw_input": "manaki future undi kadha",
+    "normalized": "manaki future undi kadha",
+    "intent": "DEEP_BOND",
+    "intent_confidence": 0.1702,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.7475,
+    "top1_scenario_incoming": "Manamu future lo",
+    "top5_scenario_incomings": [
+      "Manamu future lo",
+      "Nee meeda trust undhi",
+      "Valentine's day ki em plan",
+      "5 years lo ekkaduntav",
+      "Matching tattoo vesukondama"
+    ]
+  },
+  {
+    "test_id": 80,
+    "raw_input": "nuvvu naa last love",
+    "normalized": "nuvvu naa last love",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.9438,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9294,
+    "top1_scenario_incoming": "Nuvvu naa life",
+    "top5_scenario_incomings": [
+      "Nuvvu naa life",
+      "Nuvvu naa best friend",
+      "Nuvvu naa jeevitham lo thodu ga undali bujji",
+      "I love you",
+      "Nuvvu nacchav"
+    ]
+  },
+  {
+    "test_id": 81,
+    "raw_input": "happy ga undi kani miss avthunna",
+    "normalized": "happy ga undi kani miss avthunna",
+    "intent": "MISSING",
+    "intent_confidence": 0.7478,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.7692,
+    "top1_scenario_incoming": "Miss avthunna",
+    "top5_scenario_incomings": [
+      "Miss avthunna",
+      "Ninnu miss avthunna",
+      "Nuvvu nannu miss avuthunnava",
+      "Nenu miss chestunaanu",
+      "Nuvvu nannu miss avuthunnav ani cheppava"
+    ]
+  },
+  {
+    "test_id": 82,
+    "raw_input": "kopam ga undi kani love chesthunna",
+    "normalized": "kopam ga undi kani love chesthunna",
+    "intent": "ANGER_ARGUMENT",
+    "intent_confidence": 0.2751,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.3308,
+    "top1_scenario_incoming": "Kopam ga unna",
+    "top5_scenario_incomings": [
+      "Kopam ga unna",
+      "Ekkadaki vellavo naku cheppaledhu,chala kopam ga undhi",
+      "Naa meeda kopam undha",
+      "Nuvvu kopam lo em chesthav",
+      "Naa meeda kopam inka poleda"
+    ]
+  },
+  {
+    "test_id": 83,
+    "raw_input": "hurt ayyanu kani forgive chesthunna",
+    "normalized": "hurt ayyanu kani forgive chesthunna",
+    "intent": "APOLOGY_SEEKING",
+    "intent_confidence": 0.7606,
+    "emotion": "SAD",
+    "emotion_confidence": 0.9232,
+    "top1_scenario_incoming": "Nannu forgive cheyyadaniki chance unda",
+    "top5_scenario_incomings": [
+      "Nannu forgive cheyyadaniki chance unda",
+      "Fight ayyaka first evaru sorry cheppali",
+      "Sorry",
+      "Nenu ninnu hurt chesana",
+      "Exam pass ayyanu"
+    ]
+  },
+  {
+    "test_id": 84,
+    "raw_input": "excited ga undi nuvvu vachesthunnav kabatti",
+    "normalized": "excited ga undi nuvvu vachesthunnav kabatti",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.5195,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.4807,
+    "top1_scenario_incoming": "Naaku headache ga undi",
+    "top5_scenario_incomings": [
+      "Naaku headache ga undi",
+      "Naaku tension ga undi",
+      "Nuvvu tired ga kanipisthunnav",
+      "Nuvvu tired ga unte em cheyyali",
+      "Nuvvu late ga tinte"
+    ]
+  },
+  {
+    "test_id": 85,
+    "raw_input": "boring ga undi nuvvu lekunda",
+    "normalized": "boring ga undi nuvvu lekunda",
+    "intent": "MISSING",
+    "intent_confidence": 0.2864,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.2687,
+    "top1_scenario_incoming": "Nuvvu nenu lekunda bored avuthava",
+    "top5_scenario_incomings": [
+      "Nuvvu nenu lekunda bored avuthava",
+      "Nuvvu gurthochav",
+      "Nuvvu nannu miss avuthunnava",
+      "Nuvvu naaku message cheyyakapothe",
+      "Nuvvu nannu entha often gurthucheskuntav"
+    ]
+  },
+  {
+    "test_id": 86,
+    "raw_input": "nervous ga undi first time",
+    "normalized": "nervous ga undi first time",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.4362,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.7538,
+    "top1_scenario_incoming": "Nuvvu nannu first time chusinappudu",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu first time chusinappudu",
+      "Nuvvu nannu first time chusinappudu em anipinchindi",
+      "Chali ga undhi",
+      "Naa gurinchi first impression enti",
+      "Urgent ga cheppu"
+    ]
+  },
+  {
+    "test_id": 87,
+    "raw_input": "confused ga undi about us",
+    "normalized": "confused ga undi about us",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.7714,
+    "emotion": "NEUTRAL",
+    "emotion_confidence": 0.8373,
+    "top1_scenario_incoming": "Naaku tension ga undi",
+    "top5_scenario_incomings": [
+      "Naaku tension ga undi",
+      "Naaku headache ga undi",
+      "Tired ga undhi",
+      "Headache ga undhi",
+      "Naku bad mood ga undhi bujji"
+    ]
+  },
+  {
+    "test_id": 88,
+    "raw_input": "proud ga undi nee gurinchi",
+    "normalized": "proud ga undi nee gurinchi",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.3344,
+    "emotion": "HAPPY",
+    "emotion_confidence": 0.6575,
+    "top1_scenario_incoming": "Naaku headache ga undi",
+    "top5_scenario_incomings": [
+      "Naaku headache ga undi",
+      "Naaku tension ga undi",
+      "Tired ga undhi",
+      "Headache ga undhi",
+      "Nuvvu na health gurinchi care chesthava"
+    ]
+  },
+  {
+    "test_id": 89,
+    "raw_input": "scared ga undi nuvvu vellipothe",
+    "normalized": "scared ga undi nuvvu vellipothe",
+    "intent": "HEALTH_CARE",
+    "intent_confidence": 0.4225,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.4362,
+    "top1_scenario_incoming": "Naaku tension ga undi",
+    "top5_scenario_incomings": [
+      "Naaku tension ga undi",
+      "Naaku headache ga undi",
+      "Nuvvu tired ga kanipisthunnav",
+      "Nuvvu tired ga unte em cheyyali",
+      "Tired ga undhi"
+    ]
+  },
+  {
+    "test_id": 90,
+    "raw_input": "grateful ga undi nuvvu naa life lo",
+    "normalized": "grateful ga undi nuvvu naa life lo",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.6849,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9521,
+    "top1_scenario_incoming": "Nuvvu naa life",
+    "top5_scenario_incomings": [
+      "Nuvvu naa life",
+      "Nuvvu na life lo important aa",
+      "Nuvvu naa jeevitham lo thodu ga undali bujji",
+      "Nuvvu naa best friend",
+      "Nuvvu nacchav"
+    ]
+  },
+  {
+    "test_id": 91,
+    "raw_input": "nannu miss avuthunnava leda just chepthunnav",
+    "normalized": "nannu miss avuthunnava leda just chepthunnav",
+    "intent": "MISSING",
+    "intent_confidence": 0.8543,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.9239,
+    "top1_scenario_incoming": "Nuvvu nannu miss avuthunnava",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu miss avuthunnava",
+      "Nuvvu nannu miss avuthunnav ani cheppava",
+      "Nuvvu nannu miss ayithe em chesthav",
+      "Nuvvu nannu miss ayithe message chesthava",
+      "Miss avthunna"
+    ]
+  },
+  {
+    "test_id": 92,
+    "raw_input": "nuvvu really nannu love chesthunnava leda acting aa",
+    "normalized": "nuvvu really nannu love chesthunnava leda acting aa",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.6445,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.6866,
+    "top1_scenario_incoming": "Nuvvu nannu enduku ishtapaduthunnav",
+    "top5_scenario_incomings": [
+      "Nuvvu nannu enduku ishtapaduthunnav",
+      "Nuvvu nannu enduku like chesthav",
+      "Nuvvu na life lo important aa",
+      "I love you",
+      "Nuvvu nannu entha ishtapaduthav"
+    ]
+  },
+  {
+    "test_id": 93,
+    "raw_input": "breakup annam kabatti ippudu bagundi ani anukuntunnava",
+    "normalized": "breakup annam kabatti ippudu bagundi ani anukuntunnava",
+    "intent": "BREAKUP_THREATS",
+    "intent_confidence": 0.4556,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.4186,
+    "top1_scenario_incoming": "Breakup",
+    "top5_scenario_incomings": [
+      "Breakup",
+      "Block chestha",
+      "Nenu single ga untanu",
+      "Ippudu em chesthunnav",
+      "Ippudu call lo matladudama"
+    ]
+  },
+  {
+    "test_id": 94,
+    "raw_input": "naa kopam ninnu hurt chesindhi ante sorry",
+    "normalized": "naa kopam ninnu hurt chesindhi ante sorry",
+    "intent": "APOLOGY_SEEKING",
+    "intent_confidence": 0.3594,
+    "emotion": "HURT",
+    "emotion_confidence": 0.5935,
+    "top1_scenario_incoming": "Sorry",
+    "top5_scenario_incomings": [
+      "Sorry",
+      "Fight ayyaka first evaru sorry cheppali",
+      "Nenu ninnu hurt chesana",
+      "Nannu forgive cheyyadaniki chance unda",
+      "Ninnu miss avthunna"
+    ]
+  },
+  {
+    "test_id": 95,
+    "raw_input": "night 2 ki msg chesthe reply ivvaledu enduku",
+    "normalized": "night 2 ki msg chesthe reply ivvaledu enduku",
+    "intent": "NO_REPLY",
+    "intent_confidence": 0.9371,
+    "emotion": "ANGRY",
+    "emotion_confidence": 0.5431,
+    "top1_scenario_incoming": "Reply enduku ivvaledu",
+    "top5_scenario_incomings": [
+      "Reply enduku ivvaledu",
+      "Naa status ki reply enduku ivvaledu",
+      "Reply enduku late ayyindi",
+      "Reply late ga ichav",
+      "Matladavu enduku"
+    ]
+  },
+  {
+    "test_id": 96,
+    "raw_input": "nee friend nuvvu nannu love chesthav ani nammadu",
+    "normalized": "nee friend nuvvu nannu love chesthav ani nammadu",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.6878,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.8406,
+    "top1_scenario_incoming": "Nuvvu naa best friend",
+    "top5_scenario_incomings": [
+      "Nuvvu naa best friend",
+      "Nuvvu nannu enduku like chesthav",
+      "Nuvvu nannu entha ishtapaduthav",
+      "Nee meeda love undhi",
+      "Nuvvu nannu daily choodalani anukuntava"
+    ]
+  },
+  {
+    "test_id": 97,
+    "raw_input": "manaku future ledu anipistundi sometimes",
+    "normalized": "manaku future ledu anipistundi sometimes",
+    "intent": "GENERAL_CHAT",
+    "intent_confidence": 0.2525,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.4698,
+    "top1_scenario_incoming": "Ledu",
+    "top5_scenario_incomings": [
+      "Ledu",
+      "Manamu future lo",
+      "Mana future gurinchi matladukundama",
+      "Nuvvu nannu first time chusinappudu em anipinchindi",
+      "Happy ga ledhu"
+    ]
+  },
+  {
+    "test_id": 98,
+    "raw_input": "nenu change avthunna neekosam",
+    "normalized": "nenu change avthunna neekosam",
+    "intent": "MISSING",
+    "intent_confidence": 0.3306,
+    "emotion": "MISSING",
+    "emotion_confidence": 0.3328,
+    "top1_scenario_incoming": "Miss avthunna",
+    "top5_scenario_incomings": [
+      "Miss avthunna",
+      "Ninnu miss avthunna",
+      "Nenu miss chestunaanu",
+      "Nuvvu nenu lekunda bored avuthava",
+      "Nenu nidrapothe miss avuthava"
+    ]
+  },
+  {
+    "test_id": 99,
+    "raw_input": "nuvvu naa life lo undadam naa luck",
+    "normalized": "nuvvu naa life lo undadam naa luck",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.8109,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.9645,
+    "top1_scenario_incoming": "Nuvvu naa life",
+    "top5_scenario_incomings": [
+      "Nuvvu naa life",
+      "Nuvvu na life lo important aa",
+      "Nuvvu naa best friend",
+      "Nuvvu naa jeevitham lo thodu ga undali bujji",
+      "Nuvvu nacchav"
+    ]
+  },
+  {
+    "test_id": 100,
+    "raw_input": "i love you bujji forever and ever",
+    "normalized": "i love you bujji forever and ever",
+    "intent": "ROMANTIC_STATEMENT",
+    "intent_confidence": 0.8534,
+    "emotion": "ROMANTIC",
+    "emotion_confidence": 0.845,
+    "top1_scenario_incoming": "I love you",
+    "top5_scenario_incomings": [
+      "I love you",
+      "Nee meeda love undhi",
+      "Nuvvu naa jeevitham lo thodu ga undali bujji",
+      "Nuvvu nannu chala special ga treat chesthunnav bujji",
+      "Long drive ishtama"
+    ]
+  }
+]
